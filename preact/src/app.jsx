@@ -2,19 +2,19 @@ import Router from "preact-router"
 
 import Home from "./pages/Home"
 import AddHabit from "./pages/AddHabit"
+import Statistic from "./pages/Statistic"
+import BottomNav from "./components/BottomNav"
 
-export function App(){
+export function App() {
+  return (
+    <div className="pb-20">
+      <Router>
+        <Home path="/" />
+        <AddHabit path="/add" />
+        <Statistic path="/statistic" />
+      </Router>
 
-  return(
-
-    <Router>
-
-      <Home path="/" />
-
-      <AddHabit path="/add" />
-
-    </Router>
-
+      <BottomNav />
+    </div>
   )
-
 }
