@@ -1,0 +1,39 @@
+CREATE DATABASE habit_track;
+USE habit_track;
+
+CREATE TABLE hari (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  hari VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE habit (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    habit VARCHAR(100) NOT NULL,
+    jam TIME DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE hari_habit (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  id_habit INT NOT NULL,
+  id_hari INT NOT NULL,
+  CONSTRAINT unique_habit_hari UNIQUE (id_habit, id_hari), -- Baris perbaikan
+  FOREIGN KEY (id_habit) REFERENCES habit(id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  FOREIGN KEY (id_hari) REFERENCES hari(id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+);
+
+CREATE TABLE riwayat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_habit INT NOT NULL,
+    tanggal DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_habit) REFERENCES habit(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
+
+INSERT INTO hari (hari) VALUES 
+('Senin'), ('Selasa'), ('Rabu'), ('Kamis'), ('Jumat'), ('Sabtu'), ('Minggu');
