@@ -850,3 +850,116 @@
 7:22:12 PM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
 7:24:39 PM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
 7:26:14 PM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+
+> habbits-track@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 1282 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+6:05:31 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:05:37 AM [vite] (client) Pre-transform error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Home.jsx: Unexpected token (49:6)
+
+  47 |       await fetchData();
+  48 |
+> 49 |     } catch (err) {
+     |       ^
+  50 |       console.error(err);
+  51 |       alert("Gagal update habit");
+  52 |     }
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Home.jsx:49:6
+  47 |        await fetchData();
+  48 |  
+  49 |      } catch (err) {
+     |        ^
+  50 |        console.error(err);
+  51 |        alert("Gagal update habit");
+6:05:38 AM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Home.jsx: Unexpected token (49:6)
+
+  47 |       await fetchData();
+  48 |
+> 49 |     } catch (err) {
+     |       ^
+  50 |       console.error(err);
+  51 |       alert("Gagal update habit");
+  52 |     }
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Home.jsx:49:6
+  47 |        await fetchData();
+  48 |  
+  49 |      } catch (err) {
+     |        ^
+  50 |        console.error(err);
+  51 |        alert("Gagal update habit");
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11442:22)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseTryStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13205:23)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12804:21)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11264:10)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11194:27)
+      at JSXParserMixin.parseSubscript (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11120:19)
+      at JSXParserMixin.parseSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11094:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11085:17)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseVar (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+6:14:19 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:15:21 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:16:01 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:16:46 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:18:37 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:19:32 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:19:34 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:24:28 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:25:05 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:27:49 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:28:20 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:35:02 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:35:44 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:37:08 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:37:13 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:37:17 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:47:48 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+6:48:34 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+6:53:41 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css

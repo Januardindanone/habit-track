@@ -1,5 +1,6 @@
 import { useState, useEffect } from "preact/hooks";
 import { getHabits, addRiwayat, deleteRiwayat } from "../api";
+import { useToast } from "../context/ToastContext";
 
 export default function Home() {
   const [habits, setHabits] = useState([]);
@@ -24,46 +25,46 @@ export default function Home() {
     fetchData();
   }, []);
 
-  const completed = habits.filter(h => h.done).length;
+  const completed = habits.filter((h) => h.done).length;
   const total = habits.length;
   const progress = total ? (completed / total) * 100 : 0;
 
   const handleCheck = async (id) => {
-    const habit = habits.find(h => h.id === id);
+    const habit = habits.find((h) => h.id === id);
     if (!habit) return;
-
     try {
       if (!habit.done) {
         // ➜ tambah riwayat
-        await addRiwayat(id);
+        await addRiwayat(habit.id);
       } else {
-        // ➜ hapus riwayat
-        await deleteRiwayat(id);
+        // ➜ hapus riwayat pakai id_riwayat
+        if (!habit.id_riwayat) {
+          console.error("id_riwayat tidak ada");
+          return;
+        }
+        await deleteRiwayat(habit.id_riwayat);
       }
-
       // 🔥 ambil ulang dari backend (paling aman & akurat)
       await fetchData();
-
     } catch (err) {
       console.error(err);
-      alert("Gagal update habit");
+      toasr.error("Gagal update habit");
     }
   };
 
   return (
     <div className="min-h-screen bg-gray-50 flex justify-center p-6">
       <div className="w-full max-w-md">
-
         <h1 className="text-2xl font-semibold mb-2">Habits</h1>
-        <p className="text-sm text-gray-500 mb-5">
-          Hari ini • {hari}
-        </p>
+        <p className="text-sm text-gray-500 mb-5">Hari ini • {hari}</p>
 
         {/* Progress */}
         <div className="bg-white rounded-2xl p-4 shadow mb-5">
           <div className="flex justify-between mb-2">
             <span className="text-sm text-gray-500">Progress hari ini</span>
-            <span className="font-semibold">{completed}/{total}</span>
+            <span className="font-semibold">
+              {completed}/{total}
+            </span>
           </div>
 
           <div className="w-full bg-gray-200 rounded-full h-2">
@@ -76,7 +77,7 @@ export default function Home() {
 
         {/* List */}
         <div className="space-y-3">
-          {habits.map(h => (
+          {habits.map((h) => (
             <div
               key={h.id}
               className={`rounded-2xl p-4 flex justify-between items-center shadow ${
@@ -84,11 +85,13 @@ export default function Home() {
               }`}
             >
               <div>
-                <p className={`font-medium ${h.done ? "line-through text-gray-500" : ""}`}>
+                <p
+                  className={`font-medium ${h.done ? "line-through text-gray-500" : ""}`}
+                >
                   {h.habit}
                 </p>
                 <p className="text-xs text-gray-400 mt-1">
-                  {h.jam || "No time"} • 🔥 {h.total_done} kali
+                  🔥 {h.total_done} kali {h.jam ? `• ${h.jam.slice(0, 5)}` : ""}
                 </p>
               </div>
 
@@ -100,7 +103,6 @@ export default function Home() {
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );

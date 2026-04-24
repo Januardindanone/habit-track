@@ -1,7 +1,9 @@
 <?php
 
-class HariHabit extends DB\SQL\Mapper {
-    public function __construct($db) {
+class HariHabit extends DB\SQL\Mapper
+{
+    public function __construct($db)
+    {
         parent::__construct($db, 'hari_habit');
     }
     public function create($habit_id, $hari_ids)
@@ -19,8 +21,19 @@ class HariHabit extends DB\SQL\Mapper {
         foreach ($hari_ids as $id_hari) {
             $stmt->execute([
                 'id_habit' => $habit_id,
-                'id_hari'  => $id_hari
+                'id_hari'  => $id_hari,
             ]);
+        }
+    }
+    public function deleteByHabit($id_habit)
+    {
+        try {
+            return $this->db->exec(
+                "DELETE FROM hari_habit WHERE id_habit = ?",
+                [$id_habit]
+            );
+        } catch (\Exception $e) {
+            throw $e;
         }
     }
 }

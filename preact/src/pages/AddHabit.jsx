@@ -1,54 +1,48 @@
-import { route } from "preact-router"
-import { useState } from "preact/hooks"
-import { useToast } from "../context/ToastContext"
+import { route } from "preact-router";
+import { useState } from "preact/hooks";
+import { useToast } from "../context/ToastContext";
+import { addHabit } from "../api";
 
 export default function AddHabit() {
-  const toast = useToast()
+  const toast = useToast();
 
-  const days = ["Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Min"]
+  const days = ["Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Min"];
 
-  const [habitName, setHabitName] = useState("")
-  const [selectedDays, setSelectedDays] = useState([])
-  const [time, setTime] = useState("")
-  const [loading, setLoading] = useState(false)
+  const [habitName, setHabitName] = useState("");
+  const [selectedDays, setSelectedDays] = useState([]);
+  const [time, setTime] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const toggleDay = (id) =>
-    setSelectedDays(prev =>
-      prev.includes(id) ? prev.filter(d => d !== id) : [...prev, id]
-    )
+    setSelectedDays((prev) =>
+      prev.includes(id) ? prev.filter((d) => d !== id) : [...prev, id],
+    );
 
   const saveHabit = async () => {
-    if (!habitName.trim()) return toast.error("Nama habit wajib diisi")
-    if (!selectedDays.length) return toast.error("Pilih minimal 1 hari")
+    if (!habitName.trim()) return toast.error("Nama habit wajib diisi");
+    if (!selectedDays.length) return toast.error("Pilih minimal 1 hari");
 
     try {
-      setLoading(true)
+      setLoading(true);
 
-      const res = await fetch("http://localhost:8000/api/habit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          habit: habitName,
-          id_hari: selectedDays,
-          jam: time || null
-        })
-      })
+      await addHabit({
+        habit: habitName,
+        id_hari: selectedDays,
+        jam: time || null,
+      });
 
-      if (!res.ok) throw new Error(await res.text())
+      toast.success("Berhasil menambah habit");
 
-      toast.success("Berhasil menambah habit")
-
-      setHabitName("")
-      setSelectedDays([])
-      setTime("")
+      setHabitName("");
+      setSelectedDays([]);
+      setTime("");
     } catch (err) {
-      console.error(err)
-      toast.error("Gagal menyimpan habit")
+      console.error(err);
+      toast.error(err.message || "Gagal menyimpan habit");
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
-
+  };
   return (
     <div class="min-h-screen bg-gray-50 flex justify-center p-6">
       <div class="w-full max-w-md">
@@ -58,7 +52,7 @@ export default function AddHabit() {
           type="text"
           placeholder="Habit name"
           value={habitName}
-          onInput={e => setHabitName(e.target.value)}
+          onInput={(e) => setHabitName(e.target.value)}
           class="w-full border rounded-lg p-3 mb-4"
         />
 
@@ -83,7 +77,7 @@ export default function AddHabit() {
         <input
           type="time"
           value={time}
-          onInput={e => setTime(e.target.value)}
+          onInput={(e) => setTime(e.target.value)}
           class="w-full border rounded-lg p-3 mb-4"
         />
 
@@ -100,5 +94,5 @@ export default function AddHabit() {
         </button>
       </div>
     </div>
-  )
+  );
 }

@@ -683,3 +683,1395 @@ Stack trace:
 [Thu Apr 23 19:50:01 2026] 127.0.0.1:58510 Accepted
 [Thu Apr 23 19:50:01 2026] 127.0.0.1:58510 [200]: GET /api/habit/5
 [Thu Apr 23 19:50:01 2026] 127.0.0.1:58510 Closing
+[Fri Apr 24 05:41:28 2026] PHP 8.5.2 Development Server (http://localhost:8000) started
+[Fri Apr 24 05:42:28 2026] 127.0.0.1:55204 Accepted
+[Fri Apr 24 05:42:29 2026] 127.0.0.1:55204 [200]: GET /api/habit/5
+[Fri Apr 24 05:42:29 2026] 127.0.0.1:55204 Closing
+[Fri Apr 24 05:43:48 2026] 127.0.0.1:60294 Accepted
+[Fri Apr 24 05:43:48 2026] 127.0.0.1:60294 [200]: GET /api/habit/5
+[Fri Apr 24 05:43:48 2026] 127.0.0.1:60294 Closing
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55512 Accepted
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55512 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55512 Closing
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55524 Accepted
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55524 [200]: POST /api/riwayat
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55524 Closing
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55530 Accepted
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55530 [200]: GET /api/habit/5
+[Fri Apr 24 05:44:46 2026] 127.0.0.1:55530 Closing
+[Fri Apr 24 05:44:47 2026] 127.0.0.1:55534 Accepted
+[Fri Apr 24 05:44:47 2026] 127.0.0.1:55534 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 05:44:47 2026] 127.0.0.1:55534 Closing
+[Fri Apr 24 05:44:48 2026] 127.0.0.1:55538 Accepted
+[Fri Apr 24 05:44:48 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:44:48 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] 
+[Fri Apr 24 05:44:48 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:44:48 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:44:48 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:44:48 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:44:48 2026] 127.0.0.1:55538 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:44:48 2026] 127.0.0.1:55538 Closing
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33252 Accepted
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33252 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33252 Closing
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33256 Accepted
+[Fri Apr 24 05:44:57 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:44:57 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] 
+[Fri Apr 24 05:44:57 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:44:57 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:44:57 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:44:57 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33256 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:44:57 2026] 127.0.0.1:33256 Closing
+[Fri Apr 24 05:45:02 2026] 127.0.0.1:33262 Accepted
+[Fri Apr 24 05:45:02 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:45:02 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] 
+[Fri Apr 24 05:45:02 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:45:02 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:45:02 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:45:02 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:45:02 2026] 127.0.0.1:33262 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:45:02 2026] 127.0.0.1:33262 Closing
+[Fri Apr 24 05:45:06 2026] 127.0.0.1:34412 Accepted
+[Fri Apr 24 05:45:06 2026] 127.0.0.1:34412 [200]: GET /api/habit/5
+[Fri Apr 24 05:45:06 2026] 127.0.0.1:34412 Closing
+[Fri Apr 24 05:52:03 2026] 127.0.0.1:42734 Accepted
+[Fri Apr 24 05:52:03 2026] 127.0.0.1:42734 [200]: GET /api/habit/5
+[Fri Apr 24 05:52:03 2026] 127.0.0.1:42734 Closing
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42744 Accepted
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42744 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42744 Closing
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42758 Accepted
+[Fri Apr 24 05:52:05 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:52:05 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] 
+[Fri Apr 24 05:52:05 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:52:05 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:52:05 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:52:05 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42758 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:52:05 2026] 127.0.0.1:42758 Closing
+[Fri Apr 24 05:52:14 2026] 127.0.0.1:39710 Accepted
+[Fri Apr 24 05:52:14 2026] 127.0.0.1:39710 [200]: GET /api/habit/5
+[Fri Apr 24 05:52:14 2026] 127.0.0.1:39710 Closing
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60820 Accepted
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60820 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60820 Closing
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60822 Accepted
+[Fri Apr 24 05:52:23 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:52:23 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] 
+[Fri Apr 24 05:52:23 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:29] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:52:23 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:52:23 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:52:23 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60822 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:52:23 2026] 127.0.0.1:60822 Closing
+[Fri Apr 24 05:56:39 2026] 127.0.0.1:41968 Accepted
+[Fri Apr 24 05:56:39 2026] 127.0.0.1:41968 [200]: GET /api/habit/5
+[Fri Apr 24 05:56:39 2026] 127.0.0.1:41968 Closing
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41970 Accepted
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41970 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41970 Closing
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41974 Accepted
+[Fri Apr 24 05:56:41 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:56:41 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] 
+[Fri Apr 24 05:56:41 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:56:41 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:56:41 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:56:41 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41974 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:56:41 2026] 127.0.0.1:41974 Closing
+[Fri Apr 24 05:58:10 2026] 127.0.0.1:58972 Accepted
+[Fri Apr 24 05:58:10 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:58:10 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] 
+[Fri Apr 24 05:58:10 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:58:10 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:58:10 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:58:10 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:58:10 2026] 127.0.0.1:58972 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:58:10 2026] 127.0.0.1:58972 Closing
+[Fri Apr 24 05:58:39 2026] 127.0.0.1:51960 Accepted
+[Fri Apr 24 05:58:39 2026] 127.0.0.1:51960 [200]: GET /api/habit/5
+[Fri Apr 24 05:58:39 2026] 127.0.0.1:51960 Closing
+[Fri Apr 24 05:59:21 2026] 127.0.0.1:35162 Accepted
+[Fri Apr 24 05:59:21 2026] Undefined array key "id_riwayat"
+[Fri Apr 24 05:59:21 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] 
+[Fri Apr 24 05:59:21 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/RiwayatController.php:30] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 05:59:21 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] RiwayatController->destroy()
+[Fri Apr 24 05:59:21 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 05:59:21 2026] [index.php:7] Base->run()
+[Fri Apr 24 05:59:21 2026] 127.0.0.1:35162 [500]: DELETE /api/riwayat/5
+[Fri Apr 24 05:59:21 2026] 127.0.0.1:35162 Closing
+[Fri Apr 24 06:00:12 2026] 127.0.0.1:49078 Accepted
+[Fri Apr 24 06:00:12 2026] 127.0.0.1:49078 [200]: GET /api/habit/5
+[Fri Apr 24 06:00:12 2026] 127.0.0.1:49078 Closing
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49082 Accepted
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49082 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49082 Closing
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49088 Accepted
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49088 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:00:13 2026] 127.0.0.1:49088 Closing
+[Fri Apr 24 06:00:14 2026] 127.0.0.1:49102 Accepted
+[Fri Apr 24 06:00:14 2026] 127.0.0.1:49102 [200]: GET /api/habit/5
+[Fri Apr 24 06:00:14 2026] 127.0.0.1:49102 Closing
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47802 Accepted
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47802 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47802 Closing
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47814 Accepted
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47814 [200]: POST /api/riwayat
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47814 Closing
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47824 Accepted
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47824 [200]: GET /api/habit/5
+[Fri Apr 24 06:00:28 2026] 127.0.0.1:47824 Closing
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52968 Accepted
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52968 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52968 Closing
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52970 Accepted
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52970 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:00:38 2026] 127.0.0.1:52970 Closing
+[Fri Apr 24 06:00:56 2026] 127.0.0.1:41488 Accepted
+[Fri Apr 24 06:00:56 2026] 127.0.0.1:41488 [200]: GET /api/habit/5
+[Fri Apr 24 06:00:56 2026] 127.0.0.1:41488 Closing
+[Fri Apr 24 06:01:00 2026] 127.0.0.1:41498 Accepted
+[Fri Apr 24 06:01:01 2026] 127.0.0.1:41498 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:01:01 2026] 127.0.0.1:41498 Closing
+[Fri Apr 24 06:01:01 2026] 127.0.0.1:41508 Accepted
+[Fri Apr 24 06:01:01 2026] 127.0.0.1:41508 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:01:01 2026] 127.0.0.1:41508 Closing
+[Fri Apr 24 06:01:24 2026] 127.0.0.1:39086 Accepted
+[Fri Apr 24 06:01:24 2026] 127.0.0.1:39086 [200]: GET /api/habit/5
+[Fri Apr 24 06:01:24 2026] 127.0.0.1:39086 Closing
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35850 Accepted
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35850 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35850 Closing
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35856 Accepted
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35856 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:02:05 2026] 127.0.0.1:35856 Closing
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59410 Accepted
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59410 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59410 Closing
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59412 Accepted
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59412 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:02:20 2026] 127.0.0.1:59412 Closing
+[Fri Apr 24 06:02:50 2026] 127.0.0.1:44916 Accepted
+[Fri Apr 24 06:02:50 2026] 127.0.0.1:44916 [200]: GET /api/habit/5
+[Fri Apr 24 06:02:50 2026] 127.0.0.1:44916 Closing
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46752 Accepted
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46752 [200]: OPTIONS /api/riwayat/5
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46752 Closing
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46756 Accepted
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46756 [200]: DELETE /api/riwayat/5
+[Fri Apr 24 06:02:58 2026] 127.0.0.1:46756 Closing
+[Fri Apr 24 06:14:21 2026] 127.0.0.1:55144 Accepted
+[Fri Apr 24 06:14:21 2026] 127.0.0.1:55144 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:21 2026] 127.0.0.1:55144 Closing
+[Fri Apr 24 06:14:26 2026] 127.0.0.1:52296 Accepted
+[Fri Apr 24 06:14:26 2026] 127.0.0.1:52296 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:26 2026] 127.0.0.1:52296 Closing
+[Fri Apr 24 06:14:28 2026] 127.0.0.1:52304 Accepted
+[Fri Apr 24 06:14:28 2026] 127.0.0.1:52304 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:28 2026] 127.0.0.1:52304 Closing
+[Fri Apr 24 06:14:30 2026] 127.0.0.1:52320 Accepted
+[Fri Apr 24 06:14:30 2026] 127.0.0.1:52320 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:30 2026] 127.0.0.1:52320 Closing
+[Fri Apr 24 06:14:31 2026] 127.0.0.1:52334 Accepted
+[Fri Apr 24 06:14:31 2026] 127.0.0.1:52334 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:31 2026] 127.0.0.1:52334 Closing
+[Fri Apr 24 06:14:32 2026] 127.0.0.1:52344 Accepted
+[Fri Apr 24 06:14:32 2026] 127.0.0.1:52344 [200]: GET /api/habit/5
+[Fri Apr 24 06:14:32 2026] 127.0.0.1:52344 Closing
+[Fri Apr 24 06:15:23 2026] 127.0.0.1:45508 Accepted
+[Fri Apr 24 06:15:23 2026] 127.0.0.1:45508 [200]: GET /api/habit/5
+[Fri Apr 24 06:15:23 2026] 127.0.0.1:45508 Closing
+[Fri Apr 24 06:15:26 2026] 127.0.0.1:43062 Accepted
+[Fri Apr 24 06:15:26 2026] 127.0.0.1:43062 [200]: GET /api/habit/5
+[Fri Apr 24 06:15:26 2026] 127.0.0.1:43062 Closing
+[Fri Apr 24 06:15:29 2026] 127.0.0.1:43068 Accepted
+[Fri Apr 24 06:15:29 2026] 127.0.0.1:43068 [200]: GET /api/habit/5
+[Fri Apr 24 06:15:29 2026] 127.0.0.1:43068 Closing
+[Fri Apr 24 06:16:02 2026] 127.0.0.1:58158 Accepted
+[Fri Apr 24 06:16:02 2026] 127.0.0.1:58158 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:02 2026] 127.0.0.1:58158 Closing
+[Fri Apr 24 06:16:06 2026] 127.0.0.1:50296 Accepted
+[Fri Apr 24 06:16:06 2026] 127.0.0.1:50296 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:06 2026] 127.0.0.1:50296 Closing
+[Fri Apr 24 06:16:07 2026] 127.0.0.1:50310 Accepted
+[Fri Apr 24 06:16:07 2026] 127.0.0.1:50310 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:07 2026] 127.0.0.1:50310 Closing
+[Fri Apr 24 06:16:49 2026] 127.0.0.1:38412 Accepted
+[Fri Apr 24 06:16:49 2026] 127.0.0.1:38412 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:49 2026] 127.0.0.1:38412 Closing
+[Fri Apr 24 06:16:56 2026] 127.0.0.1:51908 Accepted
+[Fri Apr 24 06:16:56 2026] 127.0.0.1:51908 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:56 2026] 127.0.0.1:51908 Closing
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51920 Accepted
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51920 [200]: OPTIONS /api/riwayat/6
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51920 Closing
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51928 Accepted
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51928 [200]: DELETE /api/riwayat/6
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51928 Closing
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51936 Accepted
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51936 [200]: GET /api/habit/5
+[Fri Apr 24 06:16:59 2026] 127.0.0.1:51936 Closing
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51938 Accepted
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51938 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51938 Closing
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51952 Accepted
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51952 [200]: POST /api/riwayat
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51952 Closing
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51956 Accepted
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51956 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:00 2026] 127.0.0.1:51956 Closing
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51962 Accepted
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51962 [200]: OPTIONS /api/riwayat/7
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51962 Closing
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51972 Accepted
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51972 [200]: DELETE /api/riwayat/7
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51972 Closing
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51988 Accepted
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51988 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:01 2026] 127.0.0.1:51988 Closing
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:51998 Accepted
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:51998 [200]: POST /api/riwayat
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:51998 Closing
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:52002 Accepted
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:52002 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:02 2026] 127.0.0.1:52002 Closing
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52006 Accepted
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52006 [200]: OPTIONS /api/riwayat/8
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52006 Closing
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52008 Accepted
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52008 [200]: DELETE /api/riwayat/8
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52008 Closing
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52016 Accepted
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52016 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:03 2026] 127.0.0.1:52016 Closing
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52026 Accepted
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52026 [200]: POST /api/riwayat
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52026 Closing
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52032 Accepted
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52032 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:04 2026] 127.0.0.1:52032 Closing
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52038 Accepted
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52038 [200]: OPTIONS /api/riwayat/9
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52038 Closing
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52054 Accepted
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52054 [200]: DELETE /api/riwayat/9
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:52054 Closing
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:56872 Accepted
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:56872 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:05 2026] 127.0.0.1:56872 Closing
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56876 Accepted
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56876 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56876 Closing
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56886 Accepted
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56886 [200]: POST /api/riwayat
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56886 Closing
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56900 Accepted
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56900 [200]: GET /api/habit/5
+[Fri Apr 24 06:17:14 2026] 127.0.0.1:56900 Closing
+[Fri Apr 24 06:18:38 2026] 127.0.0.1:47008 Accepted
+[Fri Apr 24 06:18:38 2026] 127.0.0.1:47008 [200]: GET /api/habit/5
+[Fri Apr 24 06:18:38 2026] 127.0.0.1:47008 Closing
+[Fri Apr 24 06:19:33 2026] 127.0.0.1:50210 Accepted
+[Fri Apr 24 06:19:33 2026] 127.0.0.1:50210 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:33 2026] 127.0.0.1:50210 Closing
+[Fri Apr 24 06:19:36 2026] 127.0.0.1:38908 Accepted
+[Fri Apr 24 06:19:36 2026] 127.0.0.1:38908 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:36 2026] 127.0.0.1:38908 Closing
+[Fri Apr 24 06:19:41 2026] 127.0.0.1:38914 Accepted
+[Fri Apr 24 06:19:41 2026] 127.0.0.1:38914 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:41 2026] 127.0.0.1:38914 Closing
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38918 Accepted
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38918 [200]: OPTIONS /api/riwayat/10
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38918 Closing
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38922 Accepted
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38922 [200]: DELETE /api/riwayat/10
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38922 Closing
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38936 Accepted
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38936 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:43 2026] 127.0.0.1:38936 Closing
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38940 Accepted
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38940 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38940 Closing
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38950 Accepted
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38950 [200]: POST /api/riwayat
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38950 Closing
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38962 Accepted
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38962 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:44 2026] 127.0.0.1:38962 Closing
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44772 Accepted
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44772 [200]: POST /api/riwayat
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44772 Closing
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44776 Accepted
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44776 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:47 2026] 127.0.0.1:44776 Closing
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44782 Accepted
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44782 [200]: POST /api/riwayat
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44782 Closing
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44788 Accepted
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44788 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:48 2026] 127.0.0.1:44788 Closing
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49270 Accepted
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49270 [200]: OPTIONS /api/riwayat/12
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49270 Closing
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49286 Accepted
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49286 [200]: DELETE /api/riwayat/12
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49286 Closing
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49302 Accepted
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49302 [200]: GET /api/habit/5
+[Fri Apr 24 06:19:57 2026] 127.0.0.1:49302 Closing
+[Fri Apr 24 06:21:38 2026] 127.0.0.1:34066 Accepted
+[Fri Apr 24 06:21:38 2026] 127.0.0.1:34066 [200]: GET /api/habit/5
+[Fri Apr 24 06:21:38 2026] 127.0.0.1:34066 Closing
+[Fri Apr 24 06:24:29 2026] 127.0.0.1:33502 Accepted
+[Fri Apr 24 06:24:29 2026] 127.0.0.1:33502 [200]: GET /api/habit/5
+[Fri Apr 24 06:24:29 2026] 127.0.0.1:33502 Closing
+[Fri Apr 24 06:24:32 2026] 127.0.0.1:33516 Accepted
+[Fri Apr 24 06:24:32 2026] 127.0.0.1:33516 [200]: GET /api/habit/5
+[Fri Apr 24 06:24:32 2026] 127.0.0.1:33516 Closing
+[Fri Apr 24 06:25:06 2026] 127.0.0.1:47300 Accepted
+[Fri Apr 24 06:25:06 2026] 127.0.0.1:47300 [200]: GET /api/habit/5
+[Fri Apr 24 06:25:06 2026] 127.0.0.1:47300 Closing
+[Fri Apr 24 06:27:50 2026] 127.0.0.1:34100 Accepted
+[Fri Apr 24 06:27:50 2026] 127.0.0.1:34100 [200]: GET /api/habit/5
+[Fri Apr 24 06:27:50 2026] 127.0.0.1:34100 Closing
+[Fri Apr 24 06:28:16 2026] 127.0.0.1:40984 Accepted
+[Fri Apr 24 06:28:16 2026] 127.0.0.1:40984 [200]: GET /api/habit/5
+[Fri Apr 24 06:28:16 2026] 127.0.0.1:40984 Closing
+[Fri Apr 24 06:28:21 2026] 127.0.0.1:40996 Accepted
+[Fri Apr 24 06:28:21 2026] 127.0.0.1:40996 [200]: GET /api/habit/5
+[Fri Apr 24 06:28:21 2026] 127.0.0.1:40996 Closing
+[Fri Apr 24 06:35:04 2026] 127.0.0.1:60874 Accepted
+[Fri Apr 24 06:35:04 2026] 127.0.0.1:60874 [200]: GET /api/habit/5
+[Fri Apr 24 06:35:04 2026] 127.0.0.1:60874 Closing
+[Fri Apr 24 06:35:45 2026] 127.0.0.1:60038 Accepted
+[Fri Apr 24 06:35:45 2026] 127.0.0.1:60038 [200]: GET /api/habit/5
+[Fri Apr 24 06:35:45 2026] 127.0.0.1:60038 Closing
+[Fri Apr 24 06:37:10 2026] 127.0.0.1:54546 Accepted
+[Fri Apr 24 06:37:10 2026] 127.0.0.1:54546 [200]: GET /api/habit/5
+[Fri Apr 24 06:37:10 2026] 127.0.0.1:54546 Closing
+[Fri Apr 24 06:37:14 2026] 127.0.0.1:54552 Accepted
+[Fri Apr 24 06:37:14 2026] 127.0.0.1:54552 [200]: GET /api/habit/5
+[Fri Apr 24 06:37:14 2026] 127.0.0.1:54552 Closing
+[Fri Apr 24 06:37:18 2026] 127.0.0.1:45700 Accepted
+[Fri Apr 24 06:37:18 2026] 127.0.0.1:45700 [200]: GET /api/habit/5
+[Fri Apr 24 06:37:18 2026] 127.0.0.1:45700 Closing
+[Fri Apr 24 06:47:49 2026] 127.0.0.1:55258 Accepted
+[Fri Apr 24 06:47:49 2026] 127.0.0.1:55258 [200]: GET /api/habit/5
+[Fri Apr 24 06:47:49 2026] 127.0.0.1:55258 Closing
+[Fri Apr 24 06:53:42 2026] 127.0.0.1:50552 Accepted
+[Fri Apr 24 06:53:42 2026] 127.0.0.1:50552 [200]: GET /api/habit/5
+[Fri Apr 24 06:53:42 2026] 127.0.0.1:50552 Closing
+[Fri Apr 24 09:28:28 2026] 127.0.0.1:53276 Accepted
+[Fri Apr 24 09:28:28 2026] 127.0.0.1:53276 [200]: GET /api/habit/5
+[Fri Apr 24 09:28:28 2026] 127.0.0.1:53276 Closing
+[Fri Apr 24 09:29:02 2026] 127.0.0.1:35434 Accepted
+[Fri Apr 24 09:29:02 2026] 127.0.0.1:35434 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:02 2026] 127.0.0.1:35434 Closing
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52874 Accepted
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52874 [200]: OPTIONS /api/riwayat/13
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52874 Closing
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52882 Accepted
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52882 [200]: DELETE /api/riwayat/13
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52882 Closing
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52888 Accepted
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52888 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:06 2026] 127.0.0.1:52888 Closing
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52894 Accepted
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52894 [200]: OPTIONS /api/riwayat/11
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52894 Closing
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52908 Accepted
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52908 [200]: DELETE /api/riwayat/11
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52908 Closing
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52920 Accepted
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52920 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:08 2026] 127.0.0.1:52920 Closing
+[Fri Apr 24 09:29:09 2026] 127.0.0.1:52930 Accepted
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52930 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52930 Closing
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52934 Accepted
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52934 [200]: POST /api/riwayat
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52934 Closing
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52950 Accepted
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52950 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:10 2026] 127.0.0.1:52950 Closing
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40776 Accepted
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40776 [200]: OPTIONS /api/riwayat/14
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40776 Closing
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40778 Accepted
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40778 [200]: DELETE /api/riwayat/14
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40778 Closing
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40780 Accepted
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40780 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40780 Closing
+[Fri Apr 24 09:29:29 2026] 127.0.0.1:40794 Accepted
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40794 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40794 Closing
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40800 Accepted
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40800 [200]: POST /api/riwayat
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40800 Closing
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40808 Accepted
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40808 [200]: GET /api/habit/5
+[Fri Apr 24 09:29:30 2026] 127.0.0.1:40808 Closing
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46070 Accepted
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46070 [200]: OPTIONS /api/habit
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46070 Closing
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46076 Accepted
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46076 [200]: POST /api/habit
+[Fri Apr 24 10:20:12 2026] 127.0.0.1:46076 Closing
+[Fri Apr 24 10:20:17 2026] 127.0.0.1:53504 Accepted
+[Fri Apr 24 10:20:17 2026] 127.0.0.1:53504 [200]: GET /api/habit/5
+[Fri Apr 24 10:20:17 2026] 127.0.0.1:53504 Closing
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47642 Accepted
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47642 [200]: OPTIONS /api/habit
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47642 Closing
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47658 Accepted
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47658 [200]: POST /api/habit
+[Fri Apr 24 10:27:12 2026] 127.0.0.1:47658 Closing
+[Fri Apr 24 10:27:15 2026] 127.0.0.1:47668 Accepted
+[Fri Apr 24 10:27:15 2026] 127.0.0.1:47668 [200]: GET /api/habit/5
+[Fri Apr 24 10:27:15 2026] 127.0.0.1:47668 Closing
+[Fri Apr 24 10:27:21 2026] 127.0.0.1:48460 Accepted
+[Fri Apr 24 10:27:22 2026] 127.0.0.1:48460 [200]: GET /api/habit/5
+[Fri Apr 24 10:27:22 2026] 127.0.0.1:48460 Closing
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51196 Accepted
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51196 [200]: OPTIONS /api/habit
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51196 Closing
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51206 Accepted
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51206 [200]: POST /api/habit
+[Fri Apr 24 10:27:33 2026] 127.0.0.1:51206 Closing
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56208 Accepted
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56208 [200]: OPTIONS /api/habit
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56208 Closing
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56212 Accepted
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56212 [200]: POST /api/habit
+[Fri Apr 24 10:28:04 2026] 127.0.0.1:56212 Closing
+[Fri Apr 24 10:28:06 2026] 127.0.0.1:49584 Accepted
+[Fri Apr 24 10:28:06 2026] 127.0.0.1:49584 [200]: GET /api/habit/5
+[Fri Apr 24 10:28:06 2026] 127.0.0.1:49584 Closing
+[Fri Apr 24 10:31:49 2026] 127.0.0.1:55256 Accepted
+[Fri Apr 24 10:31:49 2026] 127.0.0.1:55256 [200]: GET /api/habit/5
+[Fri Apr 24 10:31:49 2026] 127.0.0.1:55256 Closing
+[Fri Apr 24 10:31:56 2026] 127.0.0.1:49770 Accepted
+[Fri Apr 24 10:31:56 2026] 127.0.0.1:49770 [200]: GET /api/habit/5
+[Fri Apr 24 10:31:56 2026] 127.0.0.1:49770 Closing
+[Fri Apr 24 10:32:03 2026] 127.0.0.1:49778 Accepted
+[Fri Apr 24 10:32:03 2026] 127.0.0.1:49778 [200]: OPTIONS /api/habit
+[Fri Apr 24 10:32:03 2026] 127.0.0.1:49778 Closing
+[Fri Apr 24 10:32:03 2026] 127.0.0.1:49788 Accepted
+[Fri Apr 24 10:32:04 2026] 127.0.0.1:49788 [200]: POST /api/habit
+[Fri Apr 24 10:32:04 2026] 127.0.0.1:49788 Closing
+[Fri Apr 24 11:59:44 2026] 127.0.0.1:59458 Accepted
+[Fri Apr 24 11:59:44 2026] 127.0.0.1:59458 [200]: GET /api/habit/5
+[Fri Apr 24 11:59:44 2026] 127.0.0.1:59458 Closing
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33250 Accepted
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33250 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33250 Closing
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33252 Accepted
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33252 [200]: POST /api/riwayat
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33252 Closing
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33266 Accepted
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33266 [200]: GET /api/habit/5
+[Fri Apr 24 11:59:50 2026] 127.0.0.1:33266 Closing
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38016 Accepted
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38016 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38016 Closing
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38028 Accepted
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38028 [200]: POST /api/habit
+[Fri Apr 24 12:00:02 2026] 127.0.0.1:38028 Closing
+[Fri Apr 24 12:00:08 2026] 127.0.0.1:33884 Accepted
+[Fri Apr 24 12:00:08 2026] 127.0.0.1:33884 [200]: GET /api/habit/5
+[Fri Apr 24 12:00:08 2026] 127.0.0.1:33884 Closing
+[Fri Apr 24 12:00:14 2026] 127.0.0.1:33892 Accepted
+[Fri Apr 24 12:00:14 2026] 127.0.0.1:33892 [200]: GET /api/habit/5
+[Fri Apr 24 12:00:14 2026] 127.0.0.1:33892 Closing
+[Fri Apr 24 12:04:55 2026] 127.0.0.1:55876 Accepted
+[Fri Apr 24 12:04:55 2026] 127.0.0.1:55876 [200]: GET /api/habit/5
+[Fri Apr 24 12:04:55 2026] 127.0.0.1:55876 Closing
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40274 Accepted
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40290 Accepted
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40290 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40290 Closing
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40274 [200]: POST /api/habit
+[Fri Apr 24 12:05:12 2026] 127.0.0.1:40274 Closing
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53474 Accepted
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53478 Accepted
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53478 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53478 Closing
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53474 [200]: POST /api/habit
+[Fri Apr 24 12:05:35 2026] 127.0.0.1:53474 Closing
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46548 Accepted
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46560 Accepted
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46560 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46560 Closing
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46548 [200]: POST /api/habit
+[Fri Apr 24 12:05:41 2026] 127.0.0.1:46548 Closing
+[Fri Apr 24 12:06:37 2026] 127.0.0.1:57976 Accepted
+[Fri Apr 24 12:06:37 2026] 127.0.0.1:57976 [200]: GET /api/habit/5
+[Fri Apr 24 12:06:37 2026] 127.0.0.1:57976 Closing
+[Fri Apr 24 12:06:39 2026] 127.0.0.1:57980 Accepted
+[Fri Apr 24 12:06:39 2026] 127.0.0.1:57980 [200]: GET /api/habit/5
+[Fri Apr 24 12:06:39 2026] 127.0.0.1:57980 Closing
+[Fri Apr 24 12:12:00 2026] 127.0.0.1:57082 Accepted
+[Fri Apr 24 12:12:00 2026] 127.0.0.1:57082 [200]: GET /api/habit/5
+[Fri Apr 24 12:12:00 2026] 127.0.0.1:57082 Closing
+[Fri Apr 24 12:12:03 2026] 127.0.0.1:57084 Accepted
+[Fri Apr 24 12:12:03 2026] 127.0.0.1:57084 [200]: GET /api/habit/5
+[Fri Apr 24 12:12:03 2026] 127.0.0.1:57084 Closing
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35890 Accepted
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35894 Accepted
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35894 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35894 Closing
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35890 [200]: POST /api/habit
+[Fri Apr 24 12:12:10 2026] 127.0.0.1:35890 Closing
+[Fri Apr 24 12:12:21 2026] 127.0.0.1:60078 Accepted
+[Fri Apr 24 12:12:22 2026] 127.0.0.1:60090 Accepted
+[Fri Apr 24 12:12:22 2026] 127.0.0.1:60090 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:12:22 2026] 127.0.0.1:60090 Closing
+[Fri Apr 24 12:12:22 2026] 127.0.0.1:60078 [200]: POST /api/habit
+[Fri Apr 24 12:12:22 2026] 127.0.0.1:60078 Closing
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45372 Accepted
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45374 Accepted
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45374 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45374 Closing
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45372 [200]: POST /api/habit
+[Fri Apr 24 12:12:28 2026] 127.0.0.1:45372 Closing
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44186 Accepted
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44188 Accepted
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44188 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44188 Closing
+[Fri Apr 24 12:19:42 2026] Unclosed '{' on line 4 [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:101]
+[Fri Apr 24 12:19:42 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1843] class_exists()
+[Fri Apr 24 12:19:42 2026] [index.php:7] Base->run()
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44186 [500]: POST /api/habit
+[Fri Apr 24 12:19:42 2026] 127.0.0.1:44186 Closing
+[Fri Apr 24 12:20:56 2026] 127.0.0.1:41326 Accepted
+[Fri Apr 24 12:20:56 2026] HTTP 405 (GET /api/habit)
+[Fri Apr 24 12:20:56 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1934] Base->error()
+[Fri Apr 24 12:20:56 2026] [index.php:7] Base->run()
+[Fri Apr 24 12:20:56 2026] 127.0.0.1:41326 [405]: GET /api/habit
+[Fri Apr 24 12:20:56 2026] 127.0.0.1:41326 Closing
+[Fri Apr 24 12:21:07 2026] 127.0.0.1:45072 Accepted
+[Fri Apr 24 12:21:07 2026] Unclosed '{' on line 4 [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:101]
+[Fri Apr 24 12:21:07 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1843] class_exists()
+[Fri Apr 24 12:21:07 2026] [index.php:7] Base->run()
+[Fri Apr 24 12:21:07 2026] 127.0.0.1:45072 [500]: POST /api/habit
+[Fri Apr 24 12:21:07 2026] 127.0.0.1:45072 Closing
+[Fri Apr 24 12:21:36 2026] 127.0.0.1:51178 Accepted
+[Fri Apr 24 12:21:36 2026] 127.0.0.1:51178 [200]: POST /api/habit
+[Fri Apr 24 12:21:36 2026] 127.0.0.1:51178 Closing
+[Fri Apr 24 12:24:22 2026] 127.0.0.1:45488 Accepted
+[Fri Apr 24 12:24:22 2026] 127.0.0.1:45488 [200]: POST /api/habit
+[Fri Apr 24 12:24:22 2026] 127.0.0.1:45488 Closing
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38156 Accepted
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38162 Accepted
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38162 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38162 Closing
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38156 [200]: POST /api/habit
+[Fri Apr 24 12:24:42 2026] 127.0.0.1:38156 Closing
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48872 Accepted
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48882 Accepted
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48882 [200]: OPTIONS /api/habit
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48882 Closing
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48872 [200]: POST /api/habit
+[Fri Apr 24 12:24:49 2026] 127.0.0.1:48872 Closing
+[Fri Apr 24 12:26:24 2026] 127.0.0.1:59540 Accepted
+[Fri Apr 24 12:26:24 2026] 127.0.0.1:59540 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:24 2026] 127.0.0.1:59540 Closing
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57048 Accepted
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57048 [200]: OPTIONS /api/riwayat/15
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57048 Closing
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57056 Accepted
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57056 [200]: DELETE /api/riwayat/15
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57056 Closing
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57060 Accepted
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57060 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:27 2026] 127.0.0.1:57060 Closing
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57074 Accepted
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57074 [200]: OPTIONS /api/riwayat/16
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57074 Closing
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57090 Accepted
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57090 [200]: DELETE /api/riwayat/16
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57090 Closing
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57092 Accepted
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57092 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:29 2026] 127.0.0.1:57092 Closing
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57106 Accepted
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57106 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57106 Closing
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57114 Accepted
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57114 [200]: POST /api/riwayat
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57114 Closing
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57130 Accepted
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57130 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:30 2026] 127.0.0.1:57130 Closing
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57138 Accepted
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57138 [200]: OPTIONS /api/riwayat/17
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57138 Closing
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57142 Accepted
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57142 [200]: DELETE /api/riwayat/17
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57142 Closing
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57144 Accepted
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57144 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:31 2026] 127.0.0.1:57144 Closing
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57154 Accepted
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57154 [200]: POST /api/riwayat
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57154 Closing
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57160 Accepted
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57160 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:33 2026] 127.0.0.1:57160 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43546 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43546 [200]: OPTIONS /api/riwayat/18
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43546 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43558 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43558 [200]: DELETE /api/riwayat/18
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43558 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43562 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43562 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43562 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43574 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43574 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43574 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43590 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43590 [200]: POST /api/riwayat
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43590 Closing
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43596 Accepted
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43596 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:47 2026] 127.0.0.1:43596 Closing
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45520 Accepted
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45520 [200]: OPTIONS /api/riwayat/19
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45520 Closing
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45526 Accepted
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45526 [200]: DELETE /api/riwayat/19
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45526 Closing
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45530 Accepted
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45530 [200]: GET /api/habit/5
+[Fri Apr 24 12:26:59 2026] 127.0.0.1:45530 Closing
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38864 Accepted
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38864 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38864 Closing
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38880 Accepted
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38880 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38880 Closing
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38894 Accepted
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38894 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:47 2026] 127.0.0.1:38894 Closing
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38896 Accepted
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38896 [200]: OPTIONS /api/riwayat/20
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38896 Closing
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38902 Accepted
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38902 [200]: DELETE /api/riwayat/20
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38902 Closing
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38910 Accepted
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38910 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:48 2026] 127.0.0.1:38910 Closing
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38916 Accepted
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38916 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38916 Closing
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38918 Accepted
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38918 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38918 Closing
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38922 Accepted
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38922 [200]: OPTIONS /api/riwayat/21
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38922 Closing
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38930 Accepted
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38930 [200]: DELETE /api/riwayat/21
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38930 Closing
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38942 Accepted
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38942 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:49 2026] 127.0.0.1:38942 Closing
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38952 Accepted
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38952 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38952 Closing
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38954 Accepted
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38954 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:50 2026] 127.0.0.1:38954 Closing
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38960 Accepted
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38960 [200]: OPTIONS /api/riwayat/22
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38960 Closing
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38972 Accepted
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38972 [200]: DELETE /api/riwayat/22
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38972 Closing
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38986 Accepted
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38986 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:51 2026] 127.0.0.1:38986 Closing
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38994 Accepted
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38994 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38994 Closing
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38996 Accepted
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38996 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:38996 Closing
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:39010 Accepted
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:39010 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:52 2026] 127.0.0.1:39010 Closing
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39022 Accepted
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39022 [200]: OPTIONS /api/riwayat/23
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39022 Closing
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39034 Accepted
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39034 [200]: DELETE /api/riwayat/23
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39034 Closing
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39042 Accepted
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39042 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:53 2026] 127.0.0.1:39042 Closing
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33250 Accepted
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33250 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33250 Closing
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33264 Accepted
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33264 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33264 Closing
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33276 Accepted
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33276 [200]: OPTIONS /api/riwayat/24
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33276 Closing
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33278 Accepted
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33278 [200]: DELETE /api/riwayat/24
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33278 Closing
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33282 Accepted
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33282 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:56 2026] 127.0.0.1:33282 Closing
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33284 Accepted
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33284 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33284 Closing
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33290 Accepted
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33290 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33290 Closing
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33298 Accepted
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33298 [200]: OPTIONS /api/riwayat/25
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33298 Closing
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33306 Accepted
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33306 [200]: DELETE /api/riwayat/25
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33306 Closing
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33308 Accepted
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33308 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:57 2026] 127.0.0.1:33308 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33316 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33316 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33316 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33324 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33324 [200]: POST /api/riwayat
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33324 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33330 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33330 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33330 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33332 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33332 [200]: OPTIONS /api/riwayat/26
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33332 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33344 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33344 [200]: DELETE /api/riwayat/26
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33344 Closing
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33356 Accepted
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33356 [200]: GET /api/habit/5
+[Fri Apr 24 12:27:58 2026] 127.0.0.1:33356 Closing
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53352 Accepted
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53352 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53352 Closing
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53368 Accepted
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53368 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53368 Closing
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53376 Accepted
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53376 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:06 2026] 127.0.0.1:53376 Closing
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53392 Accepted
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53392 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53392 Closing
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53406 Accepted
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53406 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:08 2026] 127.0.0.1:53406 Closing
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53414 Accepted
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53414 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53414 Closing
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53428 Accepted
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53428 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:10 2026] 127.0.0.1:53428 Closing
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53434 Accepted
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53434 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53434 Closing
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53440 Accepted
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53440 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53440 Closing
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53442 Accepted
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53442 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:12 2026] 127.0.0.1:53442 Closing
+[Fri Apr 24 12:28:15 2026] 127.0.0.1:57398 Accepted
+[Fri Apr 24 12:28:15 2026] 127.0.0.1:57398 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:15 2026] 127.0.0.1:57398 Closing
+[Fri Apr 24 12:28:16 2026] 127.0.0.1:57404 Accepted
+[Fri Apr 24 12:28:16 2026] 127.0.0.1:57404 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:16 2026] 127.0.0.1:57404 Closing
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57412 Accepted
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57412 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57412 Closing
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57426 Accepted
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57426 [200]: POST /api/riwayat
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57426 Closing
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57434 Accepted
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57434 [200]: GET /api/habit/5
+[Fri Apr 24 12:28:18 2026] 127.0.0.1:57434 Closing
+[Fri Apr 24 12:35:05 2026] 127.0.0.1:58948 Accepted
+[Fri Apr 24 12:35:05 2026] 127.0.0.1:58948 [200]: GET /api/habit/5
+[Fri Apr 24 12:35:05 2026] 127.0.0.1:58948 Closing
+[Fri Apr 24 12:38:56 2026] 127.0.0.1:54710 Accepted
+[Fri Apr 24 12:38:56 2026] 127.0.0.1:54710 [200]: GET /api/habit/5
+[Fri Apr 24 12:38:56 2026] 127.0.0.1:54710 Closing
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54726 Accepted
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54726 [200]: OPTIONS /api/riwayat/28
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54726 Closing
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54734 Accepted
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54734 [200]: DELETE /api/riwayat/28
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54734 Closing
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54738 Accepted
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54738 [200]: GET /api/habit/5
+[Fri Apr 24 12:39:04 2026] 127.0.0.1:54738 Closing
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35958 Accepted
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35958 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35958 Closing
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35966 Accepted
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35966 [200]: POST /api/riwayat
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35966 Closing
+[Fri Apr 24 12:39:08 2026] 127.0.0.1:35974 Accepted
+[Fri Apr 24 12:39:09 2026] 127.0.0.1:35974 [200]: GET /api/habit/5
+[Fri Apr 24 12:39:09 2026] 127.0.0.1:35974 Closing
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50902 Accepted
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50902 [200]: OPTIONS /api/riwayat/27
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50902 Closing
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50908 Accepted
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50908 [200]: DELETE /api/riwayat/27
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50908 Closing
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50916 Accepted
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50916 [200]: GET /api/habit/5
+[Fri Apr 24 12:43:17 2026] 127.0.0.1:50916 Closing
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50928 Accepted
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50928 [200]: OPTIONS /api/riwayat/29
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50928 Closing
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50944 Accepted
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50944 [200]: DELETE /api/riwayat/29
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50944 Closing
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50960 Accepted
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50960 [200]: GET /api/habit/5
+[Fri Apr 24 12:43:21 2026] 127.0.0.1:50960 Closing
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50962 Accepted
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50962 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50962 Closing
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50978 Accepted
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50978 [200]: POST /api/riwayat
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50978 Closing
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50992 Accepted
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50992 [200]: GET /api/habit/5
+[Fri Apr 24 12:43:25 2026] 127.0.0.1:50992 Closing
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49752 Accepted
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49752 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49752 Closing
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49768 Accepted
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49768 [200]: POST /api/riwayat
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49768 Closing
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49772 Accepted
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49772 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:06 2026] 127.0.0.1:49772 Closing
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49776 Accepted
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49776 [200]: OPTIONS /api/riwayat/32
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49776 Closing
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49792 Accepted
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49792 [200]: DELETE /api/riwayat/32
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49792 Closing
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49794 Accepted
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49794 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:09 2026] 127.0.0.1:49794 Closing
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49796 Accepted
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49796 [200]: OPTIONS /api/riwayat/31
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49796 Closing
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49800 Accepted
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49800 [200]: DELETE /api/riwayat/31
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49800 Closing
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49812 Accepted
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49812 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:11 2026] 127.0.0.1:49812 Closing
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49814 Accepted
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49814 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49814 Closing
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49830 Accepted
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49830 [200]: POST /api/riwayat
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49830 Closing
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49832 Accepted
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49832 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:14 2026] 127.0.0.1:49832 Closing
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41916 Accepted
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41916 [200]: POST /api/riwayat
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41916 Closing
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41928 Accepted
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41928 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:16 2026] 127.0.0.1:41928 Closing
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41932 Accepted
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41932 [200]: POST /api/riwayat
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41932 Closing
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41944 Accepted
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41944 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:17 2026] 127.0.0.1:41944 Closing
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41948 Accepted
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41948 [200]: POST /api/riwayat
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41948 Closing
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41958 Accepted
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41958 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:19 2026] 127.0.0.1:41958 Closing
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41972 Accepted
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41972 [200]: OPTIONS /api/riwayat/38
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41972 Closing
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41976 Accepted
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41976 [200]: DELETE /api/riwayat/38
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41976 Closing
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41984 Accepted
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41984 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:21 2026] 127.0.0.1:41984 Closing
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41986 Accepted
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41986 [200]: OPTIONS /api/riwayat/39
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41986 Closing
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41988 Accepted
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41988 [200]: DELETE /api/riwayat/39
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41988 Closing
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41994 Accepted
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41994 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:23 2026] 127.0.0.1:41994 Closing
+[Fri Apr 24 12:54:45 2026] 127.0.0.1:51248 Accepted
+[Fri Apr 24 12:54:45 2026] 127.0.0.1:51248 [200]: GET /api/habit/5
+[Fri Apr 24 12:54:45 2026] 127.0.0.1:51248 Closing
+[Fri Apr 24 12:55:49 2026] 127.0.0.1:37110 Accepted
+[Fri Apr 24 12:55:49 2026] 127.0.0.1:37110 [200]: GET /api/habit/5
+[Fri Apr 24 12:55:49 2026] 127.0.0.1:37110 Closing
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37124 Accepted
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37124 [200]: OPTIONS /api/riwayat/33
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37124 Closing
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37130 Accepted
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37130 [200]: DELETE /api/riwayat/33
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37130 Closing
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37144 Accepted
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37144 [200]: GET /api/habit/5
+[Fri Apr 24 12:55:53 2026] 127.0.0.1:37144 Closing
+[Fri Apr 24 12:59:46 2026] 127.0.0.1:49526 Accepted
+[Fri Apr 24 12:59:46 2026] 127.0.0.1:49526 [200]: GET /api/habit/5
+[Fri Apr 24 12:59:46 2026] 127.0.0.1:49526 Closing
+[Fri Apr 24 12:59:50 2026] 127.0.0.1:49540 Accepted
+[Fri Apr 24 12:59:50 2026] 127.0.0.1:49540 [200]: GET /api/habit/5
+[Fri Apr 24 12:59:50 2026] 127.0.0.1:49540 Closing
+[Fri Apr 24 13:00:00 2026] 127.0.0.1:36946 Accepted
+[Fri Apr 24 13:00:00 2026] 127.0.0.1:36946 [200]: GET /api/habit/5
+[Fri Apr 24 13:00:00 2026] 127.0.0.1:36946 Closing
+[Fri Apr 24 13:02:49 2026] 127.0.0.1:45056 Accepted
+[Fri Apr 24 13:02:49 2026] 127.0.0.1:45056 [200]: GET /api/habit/5
+[Fri Apr 24 13:02:49 2026] 127.0.0.1:45056 Closing
+[Fri Apr 24 15:15:29 2026] 127.0.0.1:47272 Accepted
+[Fri Apr 24 15:15:29 2026] 127.0.0.1:47272 [200]: GET /api/habit/5
+[Fri Apr 24 15:15:29 2026] 127.0.0.1:47272 Closing
+[Fri Apr 24 15:17:54 2026] 127.0.0.1:41290 Accepted
+[Fri Apr 24 15:17:54 2026] 127.0.0.1:41290 [200]: GET /api/habit/5
+[Fri Apr 24 15:17:54 2026] 127.0.0.1:41290 Closing
+[Fri Apr 24 15:17:57 2026] 127.0.0.1:41302 Accepted
+[Fri Apr 24 15:17:57 2026] 127.0.0.1:41302 [200]: GET /api/habit/5
+[Fri Apr 24 15:17:57 2026] 127.0.0.1:41302 Closing
+[Fri Apr 24 15:18:07 2026] 127.0.0.1:43750 Accepted
+[Fri Apr 24 15:18:07 2026] 127.0.0.1:43750 [200]: GET /api/habit/5
+[Fri Apr 24 15:18:07 2026] 127.0.0.1:43750 Closing
+[Fri Apr 24 17:08:13 2026] 127.0.0.1:47352 Accepted
+[Fri Apr 24 17:08:13 2026] Undefined variable $hari
+[Fri Apr 24 17:08:13 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:63] 
+[Fri Apr 24 17:08:13 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:63] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 17:08:13 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->getHabits()
+[Fri Apr 24 17:08:13 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 17:08:13 2026] [index.php:7] Base->run()
+[Fri Apr 24 17:08:13 2026] 127.0.0.1:47352 [500]: GET /api/habit
+[Fri Apr 24 17:08:13 2026] 127.0.0.1:47352 Closing
+[Fri Apr 24 17:09:30 2026] 127.0.0.1:33658 Accepted
+[Fri Apr 24 17:09:30 2026] 127.0.0.1:33658 [200]: GET /api/habit
+[Fri Apr 24 17:09:30 2026] 127.0.0.1:33658 Closing
+[Fri Apr 24 17:12:00 2026] 127.0.0.1:51038 Accepted
+[Fri Apr 24 17:12:00 2026] 127.0.0.1:51038 [200]: GET /api/habit
+[Fri Apr 24 17:12:00 2026] 127.0.0.1:51038 Closing
+[Fri Apr 24 17:16:38 2026] 127.0.0.1:57060 Accepted
+[Fri Apr 24 17:16:38 2026] Undefined constant "data" [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:78]
+[Fri Apr 24 17:16:38 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:61] Habit->getAllHabits()
+[Fri Apr 24 17:16:38 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->getHabits()
+[Fri Apr 24 17:16:38 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 17:16:38 2026] [index.php:7] Base->run()
+[Fri Apr 24 17:16:38 2026] 127.0.0.1:57060 [500]: GET /api/habit
+[Fri Apr 24 17:16:38 2026] 127.0.0.1:57060 Closing
+[Fri Apr 24 17:16:49 2026] 127.0.0.1:55114 Accepted
+[Fri Apr 24 17:16:49 2026] 127.0.0.1:55114 [200]: GET /api/habit
+[Fri Apr 24 17:16:49 2026] 127.0.0.1:55114 Closing
+[Fri Apr 24 17:19:01 2026] 127.0.0.1:54994 Accepted
+[Fri Apr 24 17:19:01 2026] 127.0.0.1:54994 [200]: GET /api/habit
+[Fri Apr 24 17:19:01 2026] 127.0.0.1:54994 Closing
+[Fri Apr 24 17:26:38 2026] 127.0.0.1:55482 Accepted
+[Fri Apr 24 17:26:38 2026] 127.0.0.1:55482 [200]: GET /api/habit/5
+[Fri Apr 24 17:26:38 2026] 127.0.0.1:55482 Closing
+[Fri Apr 24 17:26:40 2026] 127.0.0.1:55490 Accepted
+[Fri Apr 24 17:26:40 2026] 127.0.0.1:55490 [200]: GET /api/habit
+[Fri Apr 24 17:26:40 2026] 127.0.0.1:55490 Closing
+[Fri Apr 24 17:26:43 2026] 127.0.0.1:60674 Accepted
+[Fri Apr 24 17:26:43 2026] 127.0.0.1:60674 [200]: GET /api/habit/5
+[Fri Apr 24 17:26:43 2026] 127.0.0.1:60674 Closing
+[Fri Apr 24 17:26:45 2026] 127.0.0.1:60684 Accepted
+[Fri Apr 24 17:26:45 2026] 127.0.0.1:60684 [200]: GET /api/habit
+[Fri Apr 24 17:26:45 2026] 127.0.0.1:60684 Closing
+[Fri Apr 24 17:27:04 2026] 127.0.0.1:57118 Accepted
+[Fri Apr 24 17:27:04 2026] 127.0.0.1:57118 [200]: GET /api/habit
+[Fri Apr 24 17:27:04 2026] 127.0.0.1:57118 Closing
+[Fri Apr 24 17:28:21 2026] 127.0.0.1:39056 Accepted
+[Fri Apr 24 17:28:21 2026] 127.0.0.1:39056 [200]: GET /api/habit
+[Fri Apr 24 17:28:21 2026] 127.0.0.1:39056 Closing
+[Fri Apr 24 17:29:39 2026] 127.0.0.1:41558 Accepted
+[Fri Apr 24 17:29:39 2026] 127.0.0.1:41558 [200]: GET /api/habit
+[Fri Apr 24 17:29:39 2026] 127.0.0.1:41558 Closing
+[Fri Apr 24 17:59:40 2026] 127.0.0.1:36308 Accepted
+[Fri Apr 24 17:59:40 2026] 127.0.0.1:36308 [200]: GET /api/habit
+[Fri Apr 24 17:59:40 2026] 127.0.0.1:36308 Closing
+[Fri Apr 24 18:05:27 2026] 127.0.0.1:60200 Accepted
+[Fri Apr 24 18:05:27 2026] PHP Fatal error:  Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update() in /home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php on line 96
+Stack trace:
+#0 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(2336): require()
+#1 /home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php(60): Base->autoload()
+#2 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(2081): HabitController->getHabits()
+#3 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(1881): Base->call()
+#4 /home/danone/Project/website/life management/habit-track/f3/public/index.php(7): Base->run()
+#5 {main}
+[Fri Apr 24 18:05:27 2026] 127.0.0.1:60200 [500]: GET /api/habit - Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update() in /home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php on line 96
+[Fri Apr 24 18:05:27 2026] Fatal error: Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update()
+[Fri Apr 24 18:05:27 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:96] 
+[Fri Apr 24 18:05:27 2026] 127.0.0.1:60200 Closing
+[Fri Apr 24 18:05:44 2026] 127.0.0.1:40338 Accepted
+[Fri Apr 24 18:05:49 2026] 127.0.0.1:40338 Closed without sending a request; it was probably just an unused speculative preconnection
+[Fri Apr 24 18:05:49 2026] 127.0.0.1:40338 Closing
+[Fri Apr 24 18:05:56 2026] 127.0.0.1:56772 Accepted
+[Fri Apr 24 18:05:56 2026] PHP Fatal error:  Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update() in /home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php on line 96
+Stack trace:
+#0 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(2336): require()
+#1 /home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php(60): Base->autoload()
+#2 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(2081): HabitController->getHabits()
+#3 /home/danone/Project/website/life management/habit-track/f3/lib/base.php(1881): Base->call()
+#4 /home/danone/Project/website/life management/habit-track/f3/public/index.php(7): Base->run()
+#5 {main}
+[Fri Apr 24 18:05:56 2026] 127.0.0.1:56772 [500]: GET /api/habit - Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update() in /home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php on line 96
+[Fri Apr 24 18:05:56 2026] Fatal error: Declaration of Habit::update($id, $data) must be compatible with DB\SQL\Mapper::update()
+[Fri Apr 24 18:05:56 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:96] 
+[Fri Apr 24 18:05:56 2026] 127.0.0.1:56772 Closing
+[Fri Apr 24 18:07:57 2026] 127.0.0.1:54230 Accepted
+[Fri Apr 24 18:07:57 2026] 127.0.0.1:54230 [200]: GET /api/habit
+[Fri Apr 24 18:07:57 2026] 127.0.0.1:54230 Closing
+[Fri Apr 24 18:08:03 2026] 127.0.0.1:37012 Accepted
+[Fri Apr 24 18:08:03 2026] 127.0.0.1:37012 [200]: GET /api/habit
+[Fri Apr 24 18:08:03 2026] 127.0.0.1:37012 Closing
+[Fri Apr 24 18:08:12 2026] 127.0.0.1:33996 Accepted
+[Fri Apr 24 18:08:12 2026] 127.0.0.1:34004 Accepted
+[Fri Apr 24 18:08:12 2026] 127.0.0.1:34004 [200]: OPTIONS /api/habit/9
+[Fri Apr 24 18:08:12 2026] 127.0.0.1:34004 Closing
+[Fri Apr 24 18:08:17 2026] 127.0.0.1:33996 Closed without sending a request; it was probably just an unused speculative preconnection
+[Fri Apr 24 18:08:17 2026] 127.0.0.1:33996 Closing
+[Fri Apr 24 18:08:48 2026] 127.0.0.1:34392 Accepted
+[Fri Apr 24 18:08:48 2026] 127.0.0.1:34392 [200]: GET /api/habit
+[Fri Apr 24 18:08:48 2026] 127.0.0.1:34392 Closing
+[Fri Apr 24 18:08:57 2026] 127.0.0.1:46928 Accepted
+[Fri Apr 24 18:08:57 2026] 127.0.0.1:46932 Accepted
+[Fri Apr 24 18:08:57 2026] 127.0.0.1:46932 [200]: OPTIONS /api/habit/16
+[Fri Apr 24 18:08:57 2026] 127.0.0.1:46932 Closing
+[Fri Apr 24 18:09:02 2026] 127.0.0.1:46928 Closed without sending a request; it was probably just an unused speculative preconnection
+[Fri Apr 24 18:09:02 2026] 127.0.0.1:46928 Closing
+[Fri Apr 24 18:10:29 2026] 127.0.0.1:57478 Accepted
+[Fri Apr 24 18:10:29 2026] 127.0.0.1:57478 [200]: GET /api/habit
+[Fri Apr 24 18:10:29 2026] 127.0.0.1:57478 Closing
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43496 Accepted
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43510 Accepted
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43510 [200]: OPTIONS /api/habit/8
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43510 Closing
+[Fri Apr 24 18:10:43 2026] Object of class Base could not be converted to string [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217]
+[Fri Apr 24 18:10:43 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217] PDOStatement->bindValue()
+[Fri Apr 24 18:10:43 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:101] DB\SQL->exec()
+[Fri Apr 24 18:10:43 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:91] Habit->updateHabit()
+[Fri Apr 24 18:10:43 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->update()
+[Fri Apr 24 18:10:43 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 18:10:43 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43496 [500]: PUT /api/habit/8
+[Fri Apr 24 18:10:43 2026] 127.0.0.1:43496 Closing
+[Fri Apr 24 18:12:23 2026] 127.0.0.1:60516 Accepted
+[Fri Apr 24 18:12:23 2026] Object of class Base could not be converted to string [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217]
+[Fri Apr 24 18:12:23 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217] PDOStatement->bindValue()
+[Fri Apr 24 18:12:23 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:101] DB\SQL->exec()
+[Fri Apr 24 18:12:23 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:91] Habit->updateHabit()
+[Fri Apr 24 18:12:23 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->update()
+[Fri Apr 24 18:12:23 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 18:12:23 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:12:23 2026] 127.0.0.1:60516 [500]: PUT /api/habit/5
+[Fri Apr 24 18:12:23 2026] 127.0.0.1:60516 Closing
+[Fri Apr 24 18:15:46 2026] 127.0.0.1:41710 Accepted
+[Fri Apr 24 18:15:46 2026] Unclosed '{' on line 4 [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:116]
+[Fri Apr 24 18:15:46 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1843] class_exists()
+[Fri Apr 24 18:15:46 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:15:46 2026] 127.0.0.1:41710 [500]: PUT /api/habit/5
+[Fri Apr 24 18:15:46 2026] 127.0.0.1:41710 Closing
+[Fri Apr 24 18:16:02 2026] 127.0.0.1:49258 Accepted
+[Fri Apr 24 18:16:02 2026] Object of class Base could not be converted to string [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217]
+[Fri Apr 24 18:16:02 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217] PDOStatement->bindValue()
+[Fri Apr 24 18:16:02 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:101] DB\SQL->exec()
+[Fri Apr 24 18:16:02 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:91] Habit->updateHabit()
+[Fri Apr 24 18:16:02 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->update()
+[Fri Apr 24 18:16:02 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 18:16:02 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:16:02 2026] 127.0.0.1:49258 [500]: PUT /api/habit/5
+[Fri Apr 24 18:16:02 2026] 127.0.0.1:49258 Closing
+[Fri Apr 24 18:17:15 2026] 127.0.0.1:37470 Accepted
+[Fri Apr 24 18:17:15 2026] 127.0.0.1:37470 [200]: PUT /api/habit/5
+[Fri Apr 24 18:17:15 2026] 127.0.0.1:37470 Closing
+[Fri Apr 24 18:17:32 2026] 127.0.0.1:58374 Accepted
+[Fri Apr 24 18:17:32 2026] 127.0.0.1:58374 [200]: PUT /api/habit/5
+[Fri Apr 24 18:17:32 2026] 127.0.0.1:58374 Closing
+[Fri Apr 24 18:18:08 2026] 127.0.0.1:54466 Accepted
+[Fri Apr 24 18:18:08 2026] 127.0.0.1:54466 [200]: PUT /api/habit/5
+[Fri Apr 24 18:18:08 2026] 127.0.0.1:54466 Closing
+[Fri Apr 24 18:18:47 2026] 127.0.0.1:49574 Accepted
+[Fri Apr 24 18:18:47 2026] Object of class Base could not be converted to string [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217]
+[Fri Apr 24 18:18:47 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/db/sql.php:217] PDOStatement->bindValue()
+[Fri Apr 24 18:18:47 2026] [/home/danone/Project/website/life management/habit-track/f3/app/models/Habit.php:101] DB\SQL->exec()
+[Fri Apr 24 18:18:47 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:91] Habit->updateHabit()
+[Fri Apr 24 18:18:47 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->update()
+[Fri Apr 24 18:18:47 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 18:18:47 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:18:47 2026] 127.0.0.1:49574 [500]: PUT /api/habit/5
+[Fri Apr 24 18:18:47 2026] 127.0.0.1:49574 Closing
+[Fri Apr 24 18:20:51 2026] 127.0.0.1:59456 Accepted
+[Fri Apr 24 18:20:51 2026] 127.0.0.1:59456 [200]: PUT /api/habit/5
+[Fri Apr 24 18:20:51 2026] 127.0.0.1:59456 Closing
+[Fri Apr 24 18:21:15 2026] 127.0.0.1:44658 Accepted
+[Fri Apr 24 18:21:15 2026] 127.0.0.1:44658 [200]: PUT /api/habit/5
+[Fri Apr 24 18:21:15 2026] 127.0.0.1:44658 Closing
+[Fri Apr 24 18:22:37 2026] 127.0.0.1:45058 Accepted
+[Fri Apr 24 18:22:37 2026] Undefined variable $params
+[Fri Apr 24 18:22:37 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:69] 
+[Fri Apr 24 18:22:37 2026] [/home/danone/Project/website/life management/habit-track/f3/app/controllers/HabitController.php:69] Base->{closure:Base::__construct():2480}()
+[Fri Apr 24 18:22:37 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:2081] HabitController->update()
+[Fri Apr 24 18:22:37 2026] [/home/danone/Project/website/life management/habit-track/f3/lib/base.php:1881] Base->call()
+[Fri Apr 24 18:22:37 2026] [index.php:7] Base->run()
+[Fri Apr 24 18:22:37 2026] 127.0.0.1:45058 [500]: PUT /api/habit/5
+[Fri Apr 24 18:22:37 2026] 127.0.0.1:45058 Closing
+[Fri Apr 24 18:23:21 2026] 127.0.0.1:35662 Accepted
+[Fri Apr 24 18:23:21 2026] 127.0.0.1:35662 [200]: PUT /api/habit/5
+[Fri Apr 24 18:23:21 2026] 127.0.0.1:35662 Closing
+[Fri Apr 24 18:24:21 2026] 127.0.0.1:48792 Accepted
+[Fri Apr 24 18:24:21 2026] 127.0.0.1:48792 [200]: PUT /api/habit/5
+[Fri Apr 24 18:24:21 2026] 127.0.0.1:48792 Closing
+[Fri Apr 24 18:24:33 2026] 127.0.0.1:35246 Accepted
+[Fri Apr 24 18:24:33 2026] 127.0.0.1:35246 [200]: PUT /api/habit/5
+[Fri Apr 24 18:24:33 2026] 127.0.0.1:35246 Closing
+[Fri Apr 24 18:24:43 2026] 127.0.0.1:55082 Accepted
+[Fri Apr 24 18:24:43 2026] 127.0.0.1:55082 [200]: GET /api/habit
+[Fri Apr 24 18:24:43 2026] 127.0.0.1:55082 Closing
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49204 Accepted
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49210 Accepted
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49210 [200]: OPTIONS /api/habit/13
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49210 Closing
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49204 [200]: PUT /api/habit/13
+[Fri Apr 24 18:24:58 2026] 127.0.0.1:49204 Closing
+[Fri Apr 24 18:24:59 2026] 127.0.0.1:49212 Accepted
+[Fri Apr 24 18:24:59 2026] 127.0.0.1:49212 [200]: GET /api/habit
+[Fri Apr 24 18:24:59 2026] 127.0.0.1:49212 Closing
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52672 Accepted
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52676 Accepted
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52676 [200]: OPTIONS /api/habit/26
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52676 Closing
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52672 [200]: PUT /api/habit/26
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52672 Closing
+[Fri Apr 24 18:32:49 2026] 127.0.0.1:52684 Accepted
+[Fri Apr 24 18:32:50 2026] 127.0.0.1:52684 [200]: GET /api/habit
+[Fri Apr 24 18:32:50 2026] 127.0.0.1:52684 Closing
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57086 Accepted
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57096 Accepted
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57096 [200]: OPTIONS /api/habit/26
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57096 Closing
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57086 [200]: PUT /api/habit/26
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57086 Closing
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57108 Accepted
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57108 [200]: GET /api/habit
+[Fri Apr 24 18:33:04 2026] 127.0.0.1:57108 Closing
+[Fri Apr 24 18:33:11 2026] 127.0.0.1:35514 Accepted
+[Fri Apr 24 18:33:11 2026] 127.0.0.1:35514 [200]: GET /api/habit
+[Fri Apr 24 18:33:11 2026] 127.0.0.1:35514 Closing
+[Fri Apr 24 18:33:21 2026] 127.0.0.1:53582 Accepted
+[Fri Apr 24 18:33:21 2026] 127.0.0.1:53582 [200]: GET /api/habit/5
+[Fri Apr 24 18:33:21 2026] 127.0.0.1:53582 Closing
+[Fri Apr 24 18:33:24 2026] 127.0.0.1:53588 Accepted
+[Fri Apr 24 18:33:24 2026] 127.0.0.1:53588 [200]: GET /api/habit
+[Fri Apr 24 18:33:24 2026] 127.0.0.1:53588 Closing
+[Fri Apr 24 18:46:16 2026] 127.0.0.1:33870 Accepted
+[Fri Apr 24 18:46:16 2026] 127.0.0.1:33870 [200]: GET /api/stats
+[Fri Apr 24 18:46:16 2026] 127.0.0.1:33870 Closing
+[Fri Apr 24 18:46:20 2026] 127.0.0.1:52478 Accepted
+[Fri Apr 24 18:46:20 2026] 127.0.0.1:52478 [200]: GET /api/habit
+[Fri Apr 24 18:46:20 2026] 127.0.0.1:52478 Closing
+[Fri Apr 24 18:46:24 2026] 127.0.0.1:52490 Accepted
+[Fri Apr 24 18:46:24 2026] 127.0.0.1:52490 [200]: GET /api/stats
+[Fri Apr 24 18:46:24 2026] 127.0.0.1:52490 Closing
+[Fri Apr 24 18:46:30 2026] 127.0.0.1:36408 Accepted
+[Fri Apr 24 18:46:30 2026] 127.0.0.1:36408 [200]: GET /api/stats
+[Fri Apr 24 18:46:30 2026] 127.0.0.1:36408 Closing
+[Fri Apr 24 18:50:09 2026] 127.0.0.1:33070 Accepted
+[Fri Apr 24 18:50:09 2026] 127.0.0.1:33070 [200]: GET /api/stats
+[Fri Apr 24 18:50:09 2026] 127.0.0.1:33070 Closing
+[Fri Apr 24 18:50:12 2026] 127.0.0.1:33080 Accepted
+[Fri Apr 24 18:50:12 2026] 127.0.0.1:33080 [200]: GET /api/stats
+[Fri Apr 24 18:50:12 2026] 127.0.0.1:33080 Closing
+[Fri Apr 24 18:50:54 2026] 127.0.0.1:36072 Accepted
+[Fri Apr 24 18:50:54 2026] 127.0.0.1:36072 [200]: GET /api/stats
+[Fri Apr 24 18:50:54 2026] 127.0.0.1:36072 Closing
+[Fri Apr 24 18:51:10 2026] 127.0.0.1:50188 Accepted
+[Fri Apr 24 18:51:10 2026] 127.0.0.1:50188 [200]: GET /api/habit/5
+[Fri Apr 24 18:51:10 2026] 127.0.0.1:50188 Closing
+[Fri Apr 24 18:51:11 2026] 127.0.0.1:50202 Accepted
+[Fri Apr 24 18:51:11 2026] 127.0.0.1:50202 [200]: GET /api/stats
+[Fri Apr 24 18:51:11 2026] 127.0.0.1:50202 Closing
+[Fri Apr 24 18:51:14 2026] 127.0.0.1:50204 Accepted
+[Fri Apr 24 18:51:14 2026] 127.0.0.1:50204 [200]: GET /api/habit
+[Fri Apr 24 18:51:14 2026] 127.0.0.1:50204 Closing
+[Fri Apr 24 18:51:15 2026] 127.0.0.1:50208 Accepted
+[Fri Apr 24 18:51:15 2026] 127.0.0.1:50208 [200]: GET /api/stats
+[Fri Apr 24 18:51:15 2026] 127.0.0.1:50208 Closing
+[Fri Apr 24 18:54:57 2026] 127.0.0.1:33678 Accepted
+[Fri Apr 24 18:54:57 2026] 127.0.0.1:33678 [200]: GET /api/stats
+[Fri Apr 24 18:54:57 2026] 127.0.0.1:33678 Closing
+[Fri Apr 24 18:59:12 2026] 127.0.0.1:52354 Accepted
+[Fri Apr 24 18:59:12 2026] 127.0.0.1:52354 [200]: GET /api/stats
+[Fri Apr 24 18:59:12 2026] 127.0.0.1:52354 Closing
+[Fri Apr 24 18:59:21 2026] 127.0.0.1:38870 Accepted
+[Fri Apr 24 18:59:21 2026] 127.0.0.1:38870 [200]: GET /api/stats
+[Fri Apr 24 18:59:21 2026] 127.0.0.1:38870 Closing
+[Fri Apr 24 18:59:57 2026] 127.0.0.1:34504 Accepted
+[Fri Apr 24 18:59:57 2026] 127.0.0.1:34504 [200]: GET /api/habit/5
+[Fri Apr 24 18:59:57 2026] 127.0.0.1:34504 Closing
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43468 Accepted
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43468 [200]: OPTIONS /api/riwayat/34
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43468 Closing
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43480 Accepted
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43480 [200]: DELETE /api/riwayat/34
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43480 Closing
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43490 Accepted
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43490 [200]: GET /api/habit/5
+[Fri Apr 24 19:00:00 2026] 127.0.0.1:43490 Closing
+[Fri Apr 24 19:00:02 2026] 127.0.0.1:43502 Accepted
+[Fri Apr 24 19:00:02 2026] 127.0.0.1:43502 [200]: GET /api/stats
+[Fri Apr 24 19:00:02 2026] 127.0.0.1:43502 Closing
+[Fri Apr 24 19:00:15 2026] 127.0.0.1:36236 Accepted
+[Fri Apr 24 19:00:15 2026] 127.0.0.1:36236 [200]: GET /api/habit/5
+[Fri Apr 24 19:00:15 2026] 127.0.0.1:36236 Closing
+[Fri Apr 24 19:00:18 2026] 127.0.0.1:50256 Accepted
+[Fri Apr 24 19:00:18 2026] 127.0.0.1:50256 [200]: GET /api/stats
+[Fri Apr 24 19:00:18 2026] 127.0.0.1:50256 Closing
+[Fri Apr 24 19:00:54 2026] 127.0.0.1:50358 Accepted
+[Fri Apr 24 19:00:54 2026] 127.0.0.1:50358 [200]: GET /api/stats
+[Fri Apr 24 19:00:54 2026] 127.0.0.1:50358 Closing
+[Fri Apr 24 19:00:58 2026] 127.0.0.1:38488 Accepted
+[Fri Apr 24 19:00:58 2026] 127.0.0.1:38488 [200]: GET /api/stats
+[Fri Apr 24 19:00:58 2026] 127.0.0.1:38488 Closing
+[Fri Apr 24 19:01:04 2026] 127.0.0.1:38496 Accepted
+[Fri Apr 24 19:01:04 2026] 127.0.0.1:38496 [200]: GET /api/habit/5
+[Fri Apr 24 19:01:04 2026] 127.0.0.1:38496 Closing
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55112 Accepted
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55112 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55112 Closing
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55122 Accepted
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55122 [200]: POST /api/riwayat
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55122 Closing
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55136 Accepted
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55136 [200]: GET /api/habit/5
+[Fri Apr 24 19:01:12 2026] 127.0.0.1:55136 Closing
+[Fri Apr 24 19:01:14 2026] 127.0.0.1:55148 Accepted
+[Fri Apr 24 19:01:14 2026] 127.0.0.1:55148 [200]: GET /api/stats
+[Fri Apr 24 19:01:14 2026] 127.0.0.1:55148 Closing
+[Fri Apr 24 19:01:17 2026] 127.0.0.1:55162 Accepted
+[Fri Apr 24 19:01:17 2026] 127.0.0.1:55162 [200]: GET /api/habit/5
+[Fri Apr 24 19:01:17 2026] 127.0.0.1:55162 Closing
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42412 Accepted
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42412 [200]: OPTIONS /api/riwayat
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42412 Closing
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42422 Accepted
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42422 [200]: POST /api/riwayat
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42422 Closing
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42434 Accepted
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42434 [200]: GET /api/habit/5
+[Fri Apr 24 19:01:18 2026] 127.0.0.1:42434 Closing
+[Fri Apr 24 19:01:19 2026] 127.0.0.1:42450 Accepted
+[Fri Apr 24 19:01:19 2026] 127.0.0.1:42450 [200]: GET /api/stats
+[Fri Apr 24 19:01:19 2026] 127.0.0.1:42450 Closing
+[Fri Apr 24 19:01:59 2026] 127.0.0.1:39566 Accepted
+[Fri Apr 24 19:01:59 2026] 127.0.0.1:39566 [200]: GET /api/stats
+[Fri Apr 24 19:01:59 2026] 127.0.0.1:39566 Closing
+[Fri Apr 24 19:07:13 2026] 127.0.0.1:47692 Accepted
+[Fri Apr 24 19:07:13 2026] 127.0.0.1:47692 [200]: GET /api/stats
+[Fri Apr 24 19:07:13 2026] 127.0.0.1:47692 Closing
+[Fri Apr 24 19:07:24 2026] 127.0.0.1:44366 Accepted
+[Fri Apr 24 19:07:24 2026] 127.0.0.1:44366 [200]: GET /api/stats
+[Fri Apr 24 19:07:24 2026] 127.0.0.1:44366 Closing
+[Fri Apr 24 19:13:39 2026] 127.0.0.1:36800 Accepted
+[Fri Apr 24 19:13:39 2026] 127.0.0.1:36800 [200]: GET /api/stats
+[Fri Apr 24 19:13:39 2026] 127.0.0.1:36800 Closing
+[Fri Apr 24 19:17:01 2026] 127.0.0.1:49360 Accepted
+[Fri Apr 24 19:17:02 2026] 127.0.0.1:49360 [200]: GET /api/stats
+[Fri Apr 24 19:17:02 2026] 127.0.0.1:49360 Closing
+[Fri Apr 24 19:17:25 2026] 127.0.0.1:55818 Accepted
+[Fri Apr 24 19:17:25 2026] 127.0.0.1:55818 [200]: GET /api/stats
+[Fri Apr 24 19:17:25 2026] 127.0.0.1:55818 Closing
+[Fri Apr 24 19:21:52 2026] 127.0.0.1:38950 Accepted
+[Fri Apr 24 19:21:52 2026] 127.0.0.1:38950 [200]: GET /api/stats
+[Fri Apr 24 19:21:52 2026] 127.0.0.1:38950 Closing
+[Fri Apr 24 19:22:03 2026] 127.0.0.1:53186 Accepted
+[Fri Apr 24 19:22:03 2026] 127.0.0.1:53186 [200]: GET /api/habit/5
+[Fri Apr 24 19:22:03 2026] 127.0.0.1:53186 Closing
+[Fri Apr 24 19:22:16 2026] 127.0.0.1:38078 Accepted
+[Fri Apr 24 19:22:16 2026] 127.0.0.1:38078 [200]: GET /api/stats
+[Fri Apr 24 19:22:16 2026] 127.0.0.1:38078 Closing
+[Fri Apr 24 19:22:49 2026] 127.0.0.1:42636 Accepted
+[Fri Apr 24 19:22:49 2026] 127.0.0.1:42636 [200]: GET /api/stats
+[Fri Apr 24 19:22:49 2026] 127.0.0.1:42636 Closing
+[Fri Apr 24 19:26:24 2026] 127.0.0.1:51702 Accepted
+[Fri Apr 24 19:26:24 2026] 127.0.0.1:51702 [200]: GET /api/stats
+[Fri Apr 24 19:26:24 2026] 127.0.0.1:51702 Closing
+[Fri Apr 24 19:26:37 2026] 127.0.0.1:58702 Accepted
+[Fri Apr 24 19:26:37 2026] 127.0.0.1:58702 [200]: GET /api/stats
+[Fri Apr 24 19:26:37 2026] 127.0.0.1:58702 Closing
+[Fri Apr 24 19:26:39 2026] 127.0.0.1:55306 Accepted
+[Fri Apr 24 19:26:39 2026] 127.0.0.1:55306 [200]: GET /api/habit/5
+[Fri Apr 24 19:26:39 2026] 127.0.0.1:55306 Closing
+[Fri Apr 24 19:26:48 2026] 127.0.0.1:41082 Accepted
+[Fri Apr 24 19:26:48 2026] 127.0.0.1:41082 [200]: GET /api/stats
+[Fri Apr 24 19:26:48 2026] 127.0.0.1:41082 Closing
+[Fri Apr 24 19:29:53 2026] 127.0.0.1:54850 Accepted
+[Fri Apr 24 19:29:53 2026] 127.0.0.1:54850 [200]: GET /api/stats
+[Fri Apr 24 19:29:53 2026] 127.0.0.1:54850 Closing
+[Fri Apr 24 19:30:00 2026] 127.0.0.1:34758 Accepted
+[Fri Apr 24 19:30:00 2026] 127.0.0.1:34758 [200]: GET /api/stats
+[Fri Apr 24 19:30:00 2026] 127.0.0.1:34758 Closing
+[Fri Apr 24 19:30:28 2026] 127.0.0.1:55262 Accepted
+[Fri Apr 24 19:30:28 2026] 127.0.0.1:55262 [200]: GET /api/habit/5
+[Fri Apr 24 19:30:28 2026] 127.0.0.1:55262 Closing
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55264 Accepted
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55264 [200]: OPTIONS /api/riwayat/35
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55264 Closing
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55280 Accepted
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55280 [200]: DELETE /api/riwayat/35
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55280 Closing
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55294 Accepted
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55294 [200]: GET /api/habit/5
+[Fri Apr 24 19:30:31 2026] 127.0.0.1:55294 Closing
+[Fri Apr 24 19:30:33 2026] 127.0.0.1:55300 Accepted
+[Fri Apr 24 19:30:33 2026] 127.0.0.1:55300 [200]: OPTIONS /api/riwayat/30
+[Fri Apr 24 19:30:33 2026] 127.0.0.1:55300 Closing
+[Fri Apr 24 19:30:33 2026] 127.0.0.1:55310 Accepted
+[Fri Apr 24 19:30:34 2026] 127.0.0.1:55310 [200]: DELETE /api/riwayat/30
+[Fri Apr 24 19:30:34 2026] 127.0.0.1:55310 Closing
+[Fri Apr 24 19:30:34 2026] 127.0.0.1:55314 Accepted
+[Fri Apr 24 19:30:34 2026] 127.0.0.1:55314 [200]: GET /api/habit/5
+[Fri Apr 24 19:30:34 2026] 127.0.0.1:55314 Closing
+[Fri Apr 24 19:30:35 2026] 127.0.0.1:55330 Accepted
+[Fri Apr 24 19:30:35 2026] 127.0.0.1:55330 [200]: GET /api/stats
+[Fri Apr 24 19:30:35 2026] 127.0.0.1:55330 Closing
+[Fri Apr 24 19:30:59 2026] 127.0.0.1:33100 Accepted
+[Fri Apr 24 19:30:59 2026] 127.0.0.1:33100 [200]: GET /api/habit/5
+[Fri Apr 24 19:30:59 2026] 127.0.0.1:33100 Closing
+[Fri Apr 24 19:31:00 2026] 127.0.0.1:33116 Accepted
+[Fri Apr 24 19:31:00 2026] 127.0.0.1:33116 [200]: GET /api/stats
+[Fri Apr 24 19:31:00 2026] 127.0.0.1:33116 Closing
+[Fri Apr 24 19:31:03 2026] 127.0.0.1:33130 Accepted
+[Fri Apr 24 19:31:03 2026] 127.0.0.1:33130 [200]: GET /api/habit
+[Fri Apr 24 19:31:03 2026] 127.0.0.1:33130 Closing

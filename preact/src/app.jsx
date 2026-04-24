@@ -1,9 +1,10 @@
-import Router from "preact-router"
+import Router from "preact-router";
 
-import Home from "./pages/Home"
-import AddHabit from "./pages/AddHabit"
-import Statistic from "./pages/Statistic"
-import BottomNav from "./components/BottomNav"
+import Home from "./pages/Home";
+import AddHabit from "./pages/AddHabit";
+import Statistic from "./pages/Statistic";
+import Habit from "./pages/Habit";
+import BottomNav from "./components/BottomNav";
 
 export function App() {
   return (
@@ -12,9 +13,11 @@ export function App() {
         <Home path="/" />
         <AddHabit path="/add" />
         <Statistic path="/statistic" />
+        <Habit path="/habit" />
       </Router>
 
       <BottomNav />
     </div>
-  )
+  );
 }
+

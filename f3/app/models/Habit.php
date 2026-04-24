@@ -1,85 +1,110 @@
 <?php
 
-class Habit extends DB\SQL\Mapper {
-    public function __construct($db) {
+class Habit extends DB\SQL\Mapper
+{
+    public function __construct($db)
+    {
         parent::__construct($db, 'habit');
     }
 
-    public function getHabits($id_hari) {
+    public function getHabits($id_hari)
+    {
         return $this->db->exec("
-            SELECT 
-                h.id, 
-                h.habit, 
-                h.jam,
+          SELECT 
+              h.id, 
+              h.habit, 
+              h.jam,
 
-                -- total semua riwayat
-                COUNT(r.id) AS total_done,
+              -- total semua riwayat
+              COUNT(r.id) AS total_done,
 
-                -- cek apakah hari ini sudah ada
-                IF(
-                    SUM(DATE(r.tanggal) = CURDATE()) > 0,
-                    1,
-                    0
-                ) AS done
+              -- status hari ini
+              IF(SUM(DATE(r.tanggal) = CURDATE()) > 0, 1, 0) AS done,
 
-            FROM habit h
-            JOIN hari_habit hh 
-                ON h.id = hh.id_habit
+              -- ambil id_riwayat hari ini (jika ada)
+              MAX(
+                  CASE 
+                      WHEN DATE(r.tanggal) = CURDATE() 
+                      THEN r.id 
+                      ELSE NULL 
+                  END
+              ) AS id_riwayat
 
-            LEFT JOIN riwayat r
-                ON h.id = r.id_habit
+          FROM habit h
+          JOIN hari_habit hh 
+              ON h.id = hh.id_habit
 
-            WHERE hh.id_hari = ?
-            GROUP BY h.id
+          LEFT JOIN riwayat r
+              ON h.id = r.id_habit
+
+          WHERE hh.id_hari = ?
+          GROUP BY h.id
+          ORDER BY 
+            done ASC,
+            h.jam IS NULL,
+            h.jam ASC
         ", [$id_hari]);
     }
-    /* public function getHabits($id_hari) { */
-    /*     return $this->db->exec(" */
-    /*         SELECT  */
-    /*             h.id,  */
-    /*             h.habit,  */
-    /*             h.jam, */
-    /*             COUNT(r.id) AS total_done */
-    /*         FROM habit h */
-    /*         JOIN hari_habit hh  */
-    /*             ON h.id = hh.id_habit */
-    /*         LEFT JOIN riwayat r */
-    /*             ON h.id = r.id_habit */
-    /*         WHERE hh.id_hari = ? */
-    /*         GROUP BY h.id */
-    /*     ", [$id_hari]); */
-    /* } */
-
-    public function getHari($id_hari){
+    public function getHari($id_hari)
+    {
         return $this->db->exec(
             "SELECT hari FROM hari WHERE id = ?",
             [$id_hari]
         )[0]['hari'];
     }
-
-    public function create($data) {
+    public function getAllHabits()
+    {
+        try {
+            $data = $this->db->exec("
+            SELECT 
+                h.id,
+                h.habit,
+                TIME_FORMAT(h.jam, '%H:%i') AS jam,
+                GROUP_CONCAT(hh.id_hari ORDER BY hh.id_hari) AS id_hari
+            FROM habit h
+            LEFT JOIN hari_habit hh 
+                ON h.id = hh.id_habit
+            GROUP BY h.id
+            ORDER BY 
+                h.jam IS NULL,
+                h.jam ASC
+                ");
+            foreach ($data as &$row) {
+                $row['id_hari'] = $row['id_hari']
+                    ? array_map('intval', explode(',', $row['id_hari']))
+                    : [];
+            }
+            unset($row);
+            return $data;
+        } catch (\PDOException $e) {
+            throw $e;
+        } catch (\Exception $e) {
+            throw $e;
+        }
+    }
+    public function create($data)
+    {
         $this->copyFrom($data);
 
         try {
             $this->save();
             return $this->id;
         } catch (\Exception $e) {
-            throw new \Exception('Gagal menambahkan habit' . $e->getMessage());
+            throw $e;
         }
     }
+    public function updateHabit($id, $data)
+    {
+        $this->copyFrom($data);
 
-    // public function update($id, $data) {
-    //     $this->load(['id=?', $id]);
-        
-    //     try {
-    //         if (!$this->dry()) {
-    //             $this->copyFrom($data);
-    //             $this->save();
-    //             return true;
-    //         }
-    //     } catch (\Exception $e) {
-    //         return false;
-    //     }
-    // }
+        try {
+            return $this->db->exec(
+                "UPDATE habit SET habit = ?, jam = ? WHERE id = ?",
+                [$this->habit, $this->jam, $id]
+            );
+        } catch (\Exception $e) {
+            throw $e; // 🔥 jangan ubah exception
+        }
+    }
 
 }

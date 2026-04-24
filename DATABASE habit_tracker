@@ -37,3 +37,5 @@ CREATE TABLE riwayat (
 
 INSERT INTO hari (hari) VALUES 
 ('Senin'), ('Selasa'), ('Rabu'), ('Kamis'), ('Jumat'), ('Sabtu'), ('Minggu');
+
+ALTER TABLE habit ADD CONSTRAINT unique_habit UNIQUE (habit);
