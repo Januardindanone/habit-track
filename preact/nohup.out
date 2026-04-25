@@ -963,3 +963,496 @@
 6:47:48 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
 6:48:34 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
 6:53:41 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+
+> habbits-track@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 1621 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+9:35:01 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+9:35:01 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+9:36:53 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:10:59 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:11:39 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:12:51 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:13:19 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:45:12 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+10:45:39 AM [vite] (client) hmr update /src/pages/Home.jsx, /src/app.css
+10:50:16 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:50:16 AM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (168:12)
+
+  166 |             <h2 class="font-semibold mb-4">Per Habit</h2>
+  167 |
+> 168 |             <div class="grid grid-cols-2 gap-3">
+      |             ^
+  169 |               {per_habit.map((h) => (
+  170 |                 <div class="border rounded-xl p-3 hover:shadow-sm transition">
+  171 |                   <p class="font-medium text-sm truncate">{h.habit}</p>
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx:168:12
+  166 |              <h2 class="font-semibold mb-4">Per Habit</h2>
+  167 |  
+  168 |              <div class="grid grid-cols-2 gap-3">
+      |              ^
+  169 |                {per_habit.map((h) => (
+  170 |                  <div class="border rounded-xl p-3 hover:shadow-sm transition">
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4742:18)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+10:50:24 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:50:24 AM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (168:12)
+
+  166 |             <h2 class="font-semibold mb-4">Per Habit</h2>
+  167 |
+> 168 |             <div class="grid grid-cols-2 gap-3">
+      |             ^
+  169 |               {per_habit.map((h) => (
+  170 |                 <div class="border rounded-xl p-3 hover:shadow-sm transition">
+  171 |                   <p class="font-medium text-sm truncate">{h.habit}</p>
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx:168:12
+  166 |              <h2 class="font-semibold mb-4">Per Habit</h2>
+  167 |  
+  168 |              <div class="grid grid-cols-2 gap-3">
+      |              ^
+  169 |                {per_habit.map((h) => (
+  170 |                  <div class="border rounded-xl p-3 hover:shadow-sm transition">
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4742:18)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+10:51:29 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:51:29 AM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (181:4)
+
+  179 |         )}
+  180 |       </div>
+> 181 |     </div>
+      |     ^
+  182 |   );
+  183 | }
+  184 |
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx:181:4
+  179 |          )}
+  180 |        </div>
+  181 |      </div>
+      |      ^
+  182 |    );
+  183 |  }
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4742:18)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+10:51:43 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:51:43 AM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (181:4)
+
+  179 |         )}
+  180 |       </div>
+> 181 |     </div>
+      |     ^
+  182 |   );
+  183 | }
+  184 |
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/pages/Statistic.jsx:181:4
+  179 |          )}
+  180 |        </div>
+  181 |      </div>
+      |      ^
+  182 |    );
+  183 |  }
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4742:18)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElementAt (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12493:17)
+10:51:55 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:52:10 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:52:30 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:52:42 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:54:13 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+10:54:55 AM [vite] (client) hmr update /src/pages/Statistic.jsx, /src/app.css
+11:56:31 AM [vite] vite.config.js changed, restarting server...
+11:56:31 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+11:56:31 AM [vite] server restarted.
+
+> habbits-track@0.0.0 dev
+> vite
+
+
+  VITE v7.3.2  ready in 1292 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+3:13:09 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:13:09 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:15:28 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:15:59 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:17:25 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:19:49 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:21:16 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:22:33 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:23:28 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:26:31 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:27:35 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:28:02 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:28:40 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:29:33 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:30:17 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:30:56 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:32:10 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:33:05 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:33:20 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:36:05 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:36:40 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:38:16 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:40:14 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:40:45 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:43:04 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:44:02 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:45:16 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:45:26 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:45:34 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:46:11 PM [vite] (client) hmr update /src/pages/Login.jsx, /src/app.css
+3:48:10 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:48:57 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:49:41 PM [vite] (client) hmr update /src/app.jsx, /src/app.css
+3:49:41 PM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx: Unexpected token, expected "," (18:66)
+
+  16 |
+  17 |     if (loginTime) {
+> 18 |       const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                   ^
+  19 |       if (expired) {
+  20 |         localStorage.removeItem("isLogin");
+  21 |         localStorage.removeItem("loginTime");
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx:18:66
+  16 |  
+  17 |      if (loginTime) {
+  18 |        const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                    ^
+  19 |        if (expired) {
+  20 |          localStorage.removeItem("isLogin");
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseVar (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12858:21)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12757:17)
+      at JSXParserMixin.parseIfStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13130:28)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12796:21)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+3:49:42 PM [vite] (client) Pre-transform error: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx: Unexpected token, expected "," (18:66)
+
+  16 |
+  17 |     if (loginTime) {
+> 18 |       const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                   ^
+  19 |       if (expired) {
+  20 |         localStorage.removeItem("isLogin");
+  21 |         localStorage.removeItem("loginTime");
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx:18:66
+  16 |  
+  17 |      if (loginTime) {
+  18 |        const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                    ^
+  19 |        if (expired) {
+  20 |          localStorage.removeItem("isLogin");
+3:49:43 PM [vite] Internal server error: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx: Unexpected token, expected "," (18:66)
+
+  16 |
+  17 |     if (loginTime) {
+> 18 |       const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                   ^
+  19 |       if (expired) {
+  20 |         localStorage.removeItem("isLogin");
+  21 |         localStorage.removeItem("loginTime");
+  Plugin: vite:preact-jsx
+  File: /home/danone/Project/website/life management/habit-track/preact/src/app.jsx:18:66
+  16 |  
+  17 |      if (loginTime) {
+  18 |        const expired = Date.now() - loginTime > (1000 * 60 * 60 * 2;
+     |                                                                    ^
+  19 |        if (expired) {
+  20 |          localStorage.removeItem("isLogin");
+      at constructor (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOp (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10953:21)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseVar (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12858:21)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12757:17)
+      at JSXParserMixin.parseIfStatement (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13130:28)
+      at JSXParserMixin.parseStatementContent (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12796:21)
+      at JSXParserMixin.parseStatementLike (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/danone/Project/website/life management/habit-track/preact/node_modules/@babel/parser/lib/index.js:10881:23)
+3:49:49 PM [vite] (client) hmr update /src/app.jsx, /src/app.css

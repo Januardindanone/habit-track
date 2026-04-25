@@ -1,11 +1,7 @@
-import { route } from "preact-router";
 import { useEffect, useState } from "preact/hooks";
-import { useToast } from "../context/ToastContext";
 import { getStats } from "../api";
 
 export default function StatsPage() {
-  const toast = useToast();
-
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -36,17 +32,17 @@ export default function StatsPage() {
   function getColor(level) {
     switch (level) {
       case 0:
-        return "bg-gray-200";
+        return "bg-blue-200";
       case 1:
-        return "bg-gray-300";
+        return "bg-blue-300";
       case 2:
-        return "bg-gray-400";
+        return "bg-blue-400";
       case 3:
-        return "bg-gray-600";
+        return "bg-blue-600";
       case 4:
-        return "bg-gray-900";
+        return "bg-blue-900";
       default:
-        return "bg-gray-200";
+        return "bg-blue-200";
     }
   }
 
@@ -167,12 +163,12 @@ export default function StatsPage() {
 
         {/* 🔥 PER HABIT (GRID 2 KOLOM) */}
         {per_habit && per_habit.length > 0 && (
-          <div class="bg-white rounded-2xl p-4 shadow">
+          <div class="">
             <h2 class="font-semibold mb-4">Per Habit</h2>
 
             <div class="grid grid-cols-2 gap-3">
               {per_habit.map((h) => (
-                <div class="border rounded-xl p-3 hover:shadow-sm transition">
+                <div class="bg-white rounded-2xl p-4 shadow">
                   <p class="font-medium text-sm truncate">{h.habit}</p>
                   <p class="text-xs text-gray-500 mt-1">{h.done} done</p>
                 </div>
@@ -180,14 +176,6 @@ export default function StatsPage() {
             </div>
           </div>
         )}
-
-        {/* 🔙 BACK */}
-        <button
-          onClick={() => route("/")}
-          class="w-full bg-gray-900 text-white p-3 rounded-xl"
-        >
-          Back Home
-        </button>
       </div>
     </div>
   );

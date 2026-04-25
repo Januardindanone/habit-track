@@ -117,8 +117,7 @@ class Riwayat extends DB\SQL\Mapper
             SELECT 
                 h.id,
                 h.habit,
-                COUNT(r.id) as done,
-                COUNT(DISTINCT DATE(r.tanggal)) as days_active
+                COUNT(r.id) as done
             FROM habit h
             LEFT JOIN riwayat r ON h.id = r.id_habit
             GROUP BY h.id

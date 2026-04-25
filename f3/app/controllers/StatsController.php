@@ -47,7 +47,6 @@ class StatsController extends Controller
                     'id' => $h['id'],
                     'habit' => $h['habit'],
                     'done' => (int) $h['done'],
-                    'days_active' => (int) $h['days_active'],
                 ];
             }, $perHabitRaw);
 
