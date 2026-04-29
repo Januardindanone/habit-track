@@ -1,8 +1,9 @@
 import { useEffect, useState } from "preact/hooks";
-import { getAllHabits, updateHabit } from "../api";
+import { getAllHabits, updateHabit, deleteHabit } from "../api";
 import { useToast } from "../context/ToastContext";
 import Modal from "../components/Modal";
 import HabitForm from "../components/HabitForm";
+import ConfirmDelete from "../components/ConfirmDelete";
 
 export default function Habit() {
   const toast = useToast();
@@ -10,6 +11,9 @@ export default function Habit() {
   const [habits, setHabits] = useState([]);
   const [selectedHabit, setSelectedHabit] = useState(null);
   const [loading, setLoading] = useState(false);
+
+  // 🔥 state khusus delete
+  const [deleteId, setDeleteId] = useState(null);
 
   const fetchData = async () => {
     try {
@@ -24,6 +28,32 @@ export default function Habit() {
   useEffect(() => {
     fetchData();
   }, []);
+
+  // 🔥 buka modal confirm
+  const handleDelete = (id) => {
+    setDeleteId(id);
+  };
+
+  // 🔥 eksekusi delete
+  const confirmDelete = async () => {
+    try {
+      setLoading(true);
+
+      await deleteHabit(deleteId);
+
+      toast.success("Berhasil hapus habit");
+
+      // update state tanpa fetch ulang
+      setHabits((prev) => prev.filter((h) => h.id !== deleteId));
+
+      setDeleteId(null);
+    } catch (err) {
+      console.error(err);
+      toast.error(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const hariMap = ["Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Min"];
 
@@ -61,12 +91,19 @@ export default function Habit() {
                       {h.id_hari.map((i) => hariMap[i - 1]).join(", ")}
                     </td>
 
-                    <td class="p-3">
+                    <td class="p-3 space-x-3">
                       <button
                         onClick={() => setSelectedHabit(h)}
-                        class="text-blue-600"
+                        class="text-blue-600 hover:underline"
                       >
                         Edit
+                      </button>
+
+                      <button
+                        onClick={() => handleDelete(h.id)}
+                        class="text-red-600 hover:underline"
+                      >
+                        Hapus
                       </button>
                     </td>
                   </tr>
@@ -103,6 +140,16 @@ export default function Habit() {
             />
           </Modal>
         )}
+
+        {/* 🔥 Confirm Delete */}
+        <ConfirmDelete
+          open={!!deleteId}
+          title="Hapus Habit"
+          message="Data yang dihapus tidak bisa dikembalikan."
+          loading={loading}
+          onCancel={() => setDeleteId(null)}
+          onConfirm={confirmDelete}
+        />
       </div>
     </div>
   );

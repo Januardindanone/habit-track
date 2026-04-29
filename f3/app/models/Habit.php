@@ -106,5 +106,37 @@ class Habit extends DB\SQL\Mapper
             throw $e; // 🔥 jangan ubah exception
         }
     }
+    public function cekId($id)
+    {
+        try {
+            $query = "SELECT COUNT(*) as total FROM {$this->table} WHERE id = :id";
+            $stmt = $this->db->prepare($query);
+            $stmt->bindValue(':id', $id, PDO::PARAM_INT);
+            $stmt->execute();
 
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            return $result['total'] > 0;
+
+        } catch (\Exception $e) {
+            error_log($e->getMessage());
+            return false;
+        }
+    }
+
+    // Hapus data
+    public function delete($id)
+    {
+        try {
+            $query = "DELETE FROM {$this->table} WHERE id = :id";
+            $stmt = $this->db->prepare($query);
+            $stmt->bindValue(':id', $id, PDO::PARAM_INT);
+
+            return $stmt->execute();
+
+        } catch (\Exception $e) {
+            error_log($e->getMessage());
+            throw $e;
+        }
+    }
 }

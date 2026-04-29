@@ -1,5 +1,19 @@
 const API_BASE = "http://localhost:8000/api";
 
+export const deleteHabit = async (id_habit) => {
+  const res = await fetch(`${API_BASE}/habit/${id_habit}`, {
+    method: "DELETE",
+  });
+
+  const result = await res.json();
+
+  if (!res.ok || result.status !== "success") {
+    throw new Error(result.message || "Gagal hapus Habit");
+  }
+
+  return result;
+};
+
 export const getStats = async () => {
   const res = await fetch(`${API_BASE}/stats`, {
     credentials: "include",

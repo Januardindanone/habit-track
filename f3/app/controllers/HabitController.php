@@ -111,4 +111,38 @@ class HabitController extends Controller
             return $this->responseJson('error', null, 'Terjadi kesalahan pada server');
         }
     }
+    public function destroy($f3, $params)
+    {
+        try {
+            // Validasi parameter ID
+            if (!isset($params['id']) || empty($params['id'])) {
+                return $this->responseJson('error', null, 'ID tidak boleh kosong');
+            }
+
+            $id = (int) $params['id'];
+
+            if ($id <= 0) {
+                return $this->responseJson('error', null, 'ID tidak valid');
+            }
+
+            $habit = new Habit($this->db);
+
+            // Cek apakah data ada
+            $existingHabit = $habit->cekId($id);
+            if (!$existingHabit) {
+                return $this->responseJson('error', null, 'Habit tidak ditemukan');
+            }
+
+            // Hapus data
+            $habit->delete($id);
+
+            return $this->responseJson('success', null, 'Berhasil hapus habit');
+
+        } catch (\Exception $e) {
+            // Log error kalau perlu
+            error_log($e->getMessage());
+
+            return $this->responseJson('error', null, 'Terjadi kesalahan pada server');
+        }
+    }
 }
